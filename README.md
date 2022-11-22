@@ -1,4 +1,4 @@
-# CSCI3150, Intro to Operating Systems, Spring 2023
+# CSCI3150 Intro to Operating Systems, Spring 2023
 
 ## Administrivia
 
