@@ -27,7 +27,7 @@ The self-signup code is "3150 rocks!".
 ### Textbook (optional)
 The course materials are based upon the following classic textbook:
 - Operating Systems: Three Easy Pieces, Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
-- A free online OS book: http://pages.cs.wisc.edu/~remzi/OSTEP/ 
+- The book is free online: http://pages.cs.wisc.edu/~remzi/OSTEP/ 
 
 ### Grading
 | Assessment item | CSCI Weight 
