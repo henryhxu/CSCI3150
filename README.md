@@ -45,7 +45,7 @@ Projects details will be announced in a later time.
 Click on the topic to access the slides, and on the date to view the recording. 
 
 ### Lectures
-| Week | Lecture 1 | Lecture 2 | Optional Readings from Textbook |
+| Week | Wed Lecture | Thu Lecture | Readings from Textbook |
 | :-----------: | :-----------------: |  :------------: | :------------: |
 | 1 | [Intro and Overview](lecture/lec0.pptx) | [System Calls](lecture/lec1.pptx) | 
 
