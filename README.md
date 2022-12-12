@@ -7,7 +7,7 @@
   * Wed 2:30pm – 4:15pm, MMW LT1 
   * Thu 11:30am – 12:15pm, MMW LT1 
 - Tutorials:
-  * Thu 2:30am – 3:15am, SHB 904 
+  * Thu 2:30pm – 3:15pm, SHB 904 
   * Thu 5:30pm – 6:15pm, SHB 123
 
 ### Team
