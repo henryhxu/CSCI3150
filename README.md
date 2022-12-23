@@ -13,7 +13,7 @@
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Xu, Hong (Henry)](https://henryhxu.github.io/) | Prof | Tue 1-3 pm, SHB 914. **By appointments only.** |
+| [Xu, Hong (Henry)](https://henryhxu.github.io/) | Prof | Mon 3-5 pm, SHB 914. **By appointments only.** |
 | [Wu, Shaofeng](mailto:wsf123@link.cuhk.edu.hk) | Head TA |  |
 | [Tan, Xin](mailto:xtan22@cse.cuhk.edu.hk) | TA |  |
 
@@ -38,9 +38,9 @@ The course materials are based upon the following classic textbook:
 | Project | 15% | 
 | Final Exam | 40% | 
 
-\*: To encourage tutorial participation, quiz will be conducted at the tutorials randomly. We will randomly pick 5 tutorials and perform a quiz at the end of the tutorial. Each quiz is worth one mark.
+\*: To encourage tutorial participation, quiz or simple programming task will be conducted at the tutorials randomly. We will randomly pick 5 tutorials and perform this at the end of the tutorial. Each quiz/programming task is worth one mark.
 
-Projects details will be announced in a later time.
+Projects details will be announced in a later time. It involves programming.
 
 ## Schedules
 Click on the topic to access the slides, and on the date to view the recording. 
@@ -48,7 +48,7 @@ Click on the topic to access the slides, and on the date to view the recording.
 ### Lectures
 | Week | Wed Lecture | Thu Lecture | Readings from Textbook |
 | :-----------: | :-----------------: |  :------------: | :------------: |
-| 1 | [Intro and Overview](lecture/lec0.pptx) | [System Calls](lecture/lec1.pptx) | 
+| 1 | [Intro and Overview](lecture/lec1.pptx) | [Intro and Overview](lecture/lec1.pptx) | 
 
 
 
