@@ -14,7 +14,8 @@
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong (Henry)](https://henryhxu.github.io/) | Prof | Tue 1-3 pm, SHB 914. **By appointments only.** |
-| [Hu, Junliang](mailto:jlhu@cse.cuhk.edu.hk) | Head TA | Mon 2:30-4:30 pm, SHB 921. |
+| [Wu, Shaofeng](mailto:wsf123@link.cuhk.edu.hk) | Head TA |  |
+| [Tan, Xin](mailto:xtan22@cse.cuhk.edu.hk) | TA |  |
 
 ### Piazza
 The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/spring2023/csci3150).
