@@ -24,6 +24,7 @@ The self-signup code is "3150 rocks!".
 
 ## Course outline
 
+This course discusses the principles in the design and implementation of operating systems (OS). Main topics include: OS concepts and abstractions, process management, memory management, file systems, and virtualization.
 
 ### Textbook (optional)
 The course materials are based upon the following classic textbook:
