@@ -15,7 +15,7 @@
 | :---------------- | :--- | :----------- |
 | [Xu, Hong (Henry)](https://henryhxu.github.io/) | Prof | Mon 3-5 pm, SHB 914. **By appointments only.** |
 | [Wu, Shaofeng](mailto:wsf123@link.cuhk.edu.hk) | Head TA |  |
-| [Tan, Xin](mailto:xtan22@cse.cuhk.edu.hk) | TA |  |
+| [Tan, Xin](mailto:xtan22@cse.cuhk.edu.hk) | TA | Mon 3-5 pm, SHB 117. |
 
 ### Piazza
 The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/spring2023/csci3150).
