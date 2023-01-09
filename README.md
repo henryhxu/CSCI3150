@@ -63,7 +63,7 @@ Click on the topic to access the slides.
   * No late submission.
   * Grace tokens: You have **2** grace tokens, each can be used to give you a 24-hr extension on one assignment. You can apply at most 1 grace token on each assignment at your own discretion. This gives you some flexibility to cope with your own schedule.
   * According to the University’s regulation, every assignment must be accompanied by a signed declaration of originality; submissions without it will receive zero mark.
-  * The declaration form is available [here](declaration_en.doc).
+  * The declaration form is available [here](https://www.cuhk.edu.hk/policy/academichonesty/Eng_htm_files_(2013-14)/declaration_en.doc).
 - Lectures and tutorials:
   * Be on time. Set your mobile device to vibration/silient mode.
   * Feel free to ask questions and raise comments during the lecture, but we can only entertain short questions and discussions in-class.
