@@ -47,7 +47,7 @@ Click on the topic to access the slides.
 ### Lectures
 | Week | Wed Lecture | Thu Lecture | Readings from Textbook |
 | :-----------: | :-----------------: |  :------------: | :------------: |
-| 1 | [Intro and Overview](lecture/lec1.pptx) | [Intro and Overview](lecture/lec1.pptx) | 
+| 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) |
 
 
 
