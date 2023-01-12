@@ -45,9 +45,9 @@ The course materials are based upon the following classic textbook:
 Click on the topic to access the slides. 
 
 ### Lectures
-| Week | Wed Lecture | Thu Lecture | Readings from Textbook |
+| Week | Wed Lecture | Thu Lecture | PDF version |
 | :-----------: | :-----------------: |  :------------: | :------------: |
-| 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) |
+| 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
 
 
 
