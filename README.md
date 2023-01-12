@@ -58,6 +58,7 @@ Click on the topic to access the slides.
 | 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [Jan 12](https://cuhk.zoom.us/rec/share/ocCYRX0Pv0ZZfA3qEMIRc9JM5jDZLR9w8x6rnRtBG84f6_1cuu-L0igeQW9SKoUe.OiV8_R37BIAKtOPd?startTime=1642033608000) | [Assignment 1](assignment/assignment-1) | 18:00:00 p.m., Mon, Feb 13th |
 
 
+
 ## Course policies
 - Assignments and project: 
   * No late submission. No exception.
