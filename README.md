@@ -47,23 +47,24 @@ Click on the topic to access the slides.
 ### Lectures
 | Week | Wed Lecture | Thu Lecture | Readings from Textbook |
 | :-----------: | :-----------------: |  :------------: | :------------: |
-| 1 | [Intro and Overview](lecture/lec1.pptx) | [Intro and Overview](lecture/lec1.pptx) | 
+| 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) |
 
 
 
 ### Tutorials and Assignments
 
-| Week | Topic | Recording | Assignment | Due |
+| Week | Topic | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [Jan 12](https://cuhk.zoom.us/rec/share/ocCYRX0Pv0ZZfA3qEMIRc9JM5jDZLR9w8x6rnRtBG84f6_1cuu-L0igeQW9SKoUe.OiV8_R37BIAKtOPd?startTime=1642033608000) | [Assignment 1](assignment/assignment-1) | 18:00:00 p.m., Mon, Feb 13th |
+| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | Shaofeng | [Assignment 1](assignment/assignment-1) | 18:00:00 p.m., Mon, Feb 13th |
 
 
 
 ## Course policies
-- Assignments and project: 
-  * No late submission. No exception.
+- Assignments: 
+  * No late submission.
+  * Grace tokens: You have **2** grace tokens, each can be used to give you a 24-hr extension on one assignment. You can apply at most 1 grace token on each assignment at your own discretion. This gives you some flexibility to cope with your own schedule.
   * According to the University’s regulation, every assignment must be accompanied by a signed declaration of originality; submissions without it will receive zero mark.
-  * The declaration form is available [here](declaration_en.doc).
+  * The declaration form is available [here](https://www.cuhk.edu.hk/policy/academichonesty/Eng_htm_files_(2013-14)/declaration_en.doc).
 - Lectures and tutorials:
   * Be on time. Set your mobile device to vibration/silient mode.
   * Feel free to ask questions and raise comments during the lecture, but we can only entertain short questions and discussions in-class.
