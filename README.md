@@ -53,9 +53,9 @@ Click on the topic to access the slides.
 
 ### Tutorials and Assignments
 
-| Week | Topic | TA | Assignment | Due |
-| :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | Shaofeng | [Assignment 1](assignment/assignment-1) | 18:00:00 p.m., Mon, Feb 13th |
+| Week | Topic | Link | TA | Assignment | Due |
+| :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
+| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?) | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
 
 
 
