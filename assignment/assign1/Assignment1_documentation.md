@@ -5,7 +5,7 @@
 - Topic: implementation of a simple shell program in C
 - Total Marks: 100
 - Deadline: 18:00:00 p.m., Mon, Feb 13th
-- Submission: Blackboard
+- Submission: To be announced
 
 
 
@@ -47,7 +47,7 @@ Implement a shell program that supports
   user@OSLAB1:/dir1$
   ```
 
-Check `README.txt` in `Assign1.zip` for more test cases.
+Check `README.txt` in `assign1.zip` for more test cases.
 
 ### 2.2. Implementation Hints
 
@@ -86,7 +86,7 @@ You only need to submit your revised `simple-execute.c`, which will be compiled 
 
 - We will compile, run and grade your program with Ubuntu 18.04.6 and gcc 7.5.0. Please make sure your program sources are compatible with the corresponding version of Ubuntu and gcc. Otherwise, 0 marks will be given.
 
-- Note that we can only grade what you submit in the Blackboard. Late submission will be graded based on the submission time in the Blackboard and our late submission policy. Please find related policies on the [course website](https://github.com/henryhxu/CSCI3150).
+- Note that we can only grade what you submit in the submission method to be announced soon. Late submission will be graded based on the submission time and our late submission policy. Please find related policies on the [course website](https://github.com/henryhxu/CSCI3150).
 
 - Several new test cases will be utilized when grading. Test cases in `README.txt` are provided for validation.
 
