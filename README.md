@@ -28,7 +28,7 @@ The self-signup code is "3150 rocks!".
 This course discusses the principles in the design and implementation of operating systems (OS). Main topics include: OS concepts and abstractions, process management, memory management, file systems, and virtualization.
 
 ### Textbook (optional)
-The course materials are based upon the following classic textbook:
+The course materials are partly based upon the following classic textbook:
 - Operating Systems: Three Easy Pieces, Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
 - The book is free online: http://pages.cs.wisc.edu/~remzi/OSTEP/ 
 
