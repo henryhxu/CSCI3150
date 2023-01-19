@@ -57,7 +57,7 @@ Click on the topic to access the slides.
 | Week | Topic | Link | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
 | 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?)<br />Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
-| 2 | [Tutorial for Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) | [tutorial 2]() | Shaofeng |  |  |
+| 2 | [Tutorial for Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) | [tutorial 2](https://cuhk.zoom.us/rec/share/X3-6qBKu-wuBuxGmBX6pdPg9blXWHB_XGno89tHnhV9Rv9pU7p78V-IQSJgUBOwU.oj8ylLp93FrGJ8CU?startTime=1674120628000)<br />Passcode: R+F6sah$ | Shaofeng |  |  |
 
 
 
