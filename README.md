@@ -48,7 +48,7 @@ Click on the topic to access the slides.
 | Week | Wed Lecture | Thu Lecture | PDF version | Optional readings |
 | :-----------: | :-----------------: |  :------------: | :------------: | :------------: |
 | 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
-| 2 | [Processes](lecture/lec3_processes.pptx) | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf), <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
+| 2 | [Processes](lecture/lec3_processes.pptx) | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
 
 
 
@@ -56,7 +56,7 @@ Click on the topic to access the slides.
 
 | Week | Topic | Link | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?), Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
+| 1 | [Basic reviews: Linux, gcc, git and C programming](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?)<br />Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
 | 2 | [Tutorial for Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) | [tutorial 2]() | Shaofeng |  |  |
 
 
