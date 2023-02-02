@@ -29,15 +29,15 @@ int main() {
 
     /* child process */
     else if(pid == 0){
-        /* close un-unsed write end of the pipe */
+        /* close un-unsed write end of the pipe */
         close(pipe_fd[1]);
 
-        /* read from parent process into the buffer*/
+        /* read from parent process into the buffer*/
         while ((bytes_read = read(pipe_fd[0], &readbuf[total_bytes_read], 1024-1-total_bytes_read)) > 0){
             total_bytes_read += bytes_read;
         }
 
-        /* print the content in the buffer */
+        /* print the content in the buffer */
         readbuf[total_bytes_read]='\0';
         printf("[Message from parent] %s\n", readbuf);
         exit(0);
@@ -45,7 +45,7 @@ int main() {
 
     /* parent process */
     else{
-        /* close un-used read end of the pipe */
+        /* close un-used read end of the pipe */
         close(pipe_fd[0]);
 
         // sleep(5);
