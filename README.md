@@ -61,6 +61,11 @@ Click on the topic to access the slides.
 | 2 | [Tutorial for Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) | [tutorial 2](https://cuhk.zoom.us/rec/share/X3-6qBKu-wuBuxGmBX6pdPg9blXWHB_XGno89tHnhV9Rv9pU7p78V-IQSJgUBOwU.oj8ylLp93FrGJ8CU?startTime=1674120628000)<br />Passcode: R+F6sah$ | Shaofeng |  |  |
 | 3 | [Tutorial for Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
 
+### Assignment Github Classroom and Contact
+| Assignment Classroom | Due | Contact TA |
+| :-------------: | :-------------: | :-----: |
+| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| [assignment one grace token]() (To be released) | 18:00:00 p.m., Tues, Feb 14th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
 
 
 ## Course policies
