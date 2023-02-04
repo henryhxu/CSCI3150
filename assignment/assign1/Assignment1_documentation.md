@@ -52,7 +52,7 @@ Implement a shell program that supports:
   user@OSLAB1:/dir1$
   ```
 
-​		Note: your program should be able to handle the case in which there is **at least one space** before or after “|”. If there is no space before or after “|”, for example, for the following case:“ls|” is treated as **one argument** to be executed (rather than “ls” and “|”). Although in real bash shells, "ls|" will still be treated as command "ls" followed by pipe meta character, we do not require you to deal with such scenarios in assignment one. We are also aware of this when designing our grading test cases.
+​		Note: your program should be able to handle the case in which there is **there are at least one space(or tab, or both) before and one space(or tab, or both) after the pipe meta character “|”**. If there is no space before or after “|”, for example, for the following case:“ls|” is treated as **one argument** to be executed (rather than “ls” and “|”). Although in real bash shells, "ls|" will still be treated as command "ls" followed by pipe meta character, we do not require you to deal with such scenarios in assignment one. We are also aware of this when designing our grading test cases.
 
 Check `README.txt` in `assign1.zip` for more test cases.
 
