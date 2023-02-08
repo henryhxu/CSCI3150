@@ -50,7 +50,7 @@ Click on the topic to access the slides.
 | 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
 | 2 | [Processes](lecture/lec3_processes.pptx) | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
 | 3 | [Threads](lecture/lec4_threads.pptx), [Synchronization 1](lecture/lec5_sync.pptx) | [Synchronization 1](lecture/lec5_sync.pptx) | [lec4](lecture/lec4_threads.pdf), [lec5](lecture/lec5_sync.pdf)
-| 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx) | [Sync 3: Semaphore](lecture/lec7_sema.pptx) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/) <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
+| 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx) | [Sync 3: Semaphore](lecture/lec7_sema.pptx) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
 | 5 | 
 
 
