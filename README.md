@@ -52,7 +52,14 @@ Click on the topic to access the slides.
 | 3 | [Threads](lecture/lec4_threads.pptx), [Synchronization 1](lecture/lec5_sync.pptx) | [Synchronization 1](lecture/lec5_sync.pptx) | [lec4](lecture/lec4_threads.pdf), [lec5](lecture/lec5_sync.pdf)
 | 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx) | [Sync 3: Semaphore](lecture/lec7_sema.pptx) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
 | 5 | CPU Scheduling | CPU Scheduling |
-
+| 6 | Memory Management 1 | Memory Management 1
+| 7 | MM 2: Paging | MM 2: Paging
+| 8 | MM 3: Swapping | 
+| 9 | File Systems 1 | 
+| 10 | File Systems 2
+| 11 | File Systems 3
+| 12 | Distributed Systems
+| 13 | Virtual Machines | Final Review |
 
 
 ### Tutorials and Assignments
