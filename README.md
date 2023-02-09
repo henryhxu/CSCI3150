@@ -42,10 +42,10 @@ The course materials are partly based upon the following classic textbook:
 \*: To encourage tutorial participation, quiz or simple programming task will be conducted at the tutorials randomly. We will randomly pick 5 tutorials and perform this at the end of the tutorial. Each quiz/programming task is worth one mark. There will also be a midterm written quiz worth 5 marks; the date will be announced in a later time.
 
 ## Schedules
-Click on the topic to access the slides. 
+Click on the topic to access the slides. Click on the ► to watch the recording.
 
 ### Lectures
-Click on the ► to watch the recording.
+
 | Week | Wed Lecture | Thu Lecture | PDF version | Optional readings |
 | :-----------: | :-----------------: |  :------------: | :------------: | :------------: |
 | 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
