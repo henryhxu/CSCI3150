@@ -31,6 +31,8 @@ Implement a shell program that supports:
   user@OSLAB1:/dir1$
   ```
 
+  We only require you to support cd command **with one argument**, which is a path. We do not require you to support other scenarios such as cd with flags.
+
 - single external commands, i.e. `ls`, `ps`, etc. 
 
   Your shell program should be able to execute single command with arguments. For example:
