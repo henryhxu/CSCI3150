@@ -72,7 +72,7 @@ Click on the topic to access the slides. Click on the ► to watch the recording
 | 3 | [Tutorial for Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
 | 4 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
 
-### Assignment Github Classroom and Contact
+### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
 | [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
