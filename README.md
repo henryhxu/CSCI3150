@@ -42,17 +42,17 @@ The course materials are partly based upon the following classic textbook:
 \*: To encourage tutorial participation, quiz or simple programming task will be conducted at the tutorials randomly. We will randomly pick 5 tutorials and perform this at the end of the tutorial. Each quiz/programming task is worth one mark. There will also be a midterm written quiz worth 5 marks; the date will be announced in a later time.
 
 ## Schedules
-Click on the topic to access the slides. Click on the ► to watch the recording.
+Click on the topic to access the slides, on the superscript to access the corresponding chapters in the textbook, and on the ► to watch the recording.
 
 ### Lectures
 
 | Week | Wed Lecture | Thu Lecture | PDF version | Optional readings |
 | :-----------: | :-----------------: |  :------------: | :------------: | :------------: |
 | 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
-| 2 | [Processes](lecture/lec3_processes.pptx) | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
-| 3 | [Threads](lecture/lec4_threads.pptx), [Synchronization 1](lecture/lec5_sync.pptx) | [Synchronization 1](lecture/lec5_sync.pptx) | [lec4](lecture/lec4_threads.pdf), [lec5](lecture/lec5_sync.pdf)
-| 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx) | [Sync 3: Semaphore](lecture/lec7_sema.pptx) ([►](https://cuhk.zoom.us/rec/share/yuyeZJMrIlh5WQwHqBqrxM6WrCuRteAldP9xrof5Ai9i1yWpytZdq-YVrdODcls.KglAjWI29muOW6wW?startTime=1675913119000)) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
-| 5 | [Deadlock](lecture/lec8-deadlock.pptx) | [CPU Scheduling](lecture/lec9_sched.pptx) | [lec8](lecture/lec8-deadlock.pptx)
+| 2 | [Processes](lecture/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
+| 3 | [Threads](lecture/lec4_threads.pptx)<sup>[25](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)</sup>, [Synchronization 1](lecture/lec5_sync.pptx)<sup>[28](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)</sup> | [Synchronization 1](lecture/lec5_sync.pptx) | [lec4](lecture/lec4_threads.pdf), [lec5](lecture/lec5_sync.pdf)
+| 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx)<sup>[30](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf)</sup> | [Sync 3: Semaphore](lecture/lec7_sema.pptx)<sup>[31](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/yuyeZJMrIlh5WQwHqBqrxM6WrCuRteAldP9xrof5Ai9i1yWpytZdq-YVrdODcls.KglAjWI29muOW6wW?startTime=1675913119000)) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
+| 5 | [Deadlock](lecture/lec8-deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/a9_nFd1e78MmC6MmcG63ls5ZM5CNUbDm0uOdGBE24WM9MKanc38bbPQH_RqYDPzf.2UL914b4Rw3rdQlI?startTime=1676442659000)) | [CPU Scheduling](lecture/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> | [lec8](lecture/lec8-deadlock.pdf), [lec9](lecture/lec9_sched.pdf)
 | 6 | Memory Management 1 | Memory Management 1
 | 7 | MM 2: Paging | MM 2: Paging
 | 8 | MM 3: Swapping | 
@@ -75,8 +75,8 @@ Click on the topic to access the slides. Click on the ► to watch the recording
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
-| [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
 
 
 ## Course policies
