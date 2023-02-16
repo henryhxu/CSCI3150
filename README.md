@@ -75,8 +75,8 @@ Click on the topic to access the slides, on the superscript to access the corres
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
-| [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
 
 
 ## Course policies
