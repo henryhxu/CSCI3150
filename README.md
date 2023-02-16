@@ -71,7 +71,7 @@ Click on the topic to access the slides, on the superscript to access the corres
 | 2 | [Assignment 1: Background and Code Walkthrough](tutorial/T02/tut02.pptx) | [tutorial 2](https://cuhk.zoom.us/rec/share/X3-6qBKu-wuBuxGmBX6pdPg9blXWHB_XGno89tHnhV9Rv9pU7p78V-IQSJgUBOwU.oj8ylLp93FrGJ8CU?startTime=1674120628000)<br />Passcode: R+F6sah$ | Shaofeng |  |  |
 | 3 | [Assignment 1: System Calls in C](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
 | 4 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
-| 5 | [Assignment One Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5]()<br /> Passcode:  |  Shaofeng |  | |
+| 5 | [Assignment 1 Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5]()<br /> Passcode:  |  Shaofeng | [Assignment 2](assignment/assign2) | 18:00:00 p.m., Mon, Mar 6th |
 
 
 
