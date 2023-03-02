@@ -75,7 +75,7 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | 4 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
 | 5 | [Assignment 1 Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5](https://cuhk.zoom.us/rec/share/5lIxzEoenQPB_9ml0bQfe0BDb34YkTGNZrUbfPYY67iHQllJmGcZOnTwX5RJ51KD.8sEabfJJTzygX7kJ)<br /> Passcode: euZW3fO+ |  Shaofeng |  | |
 | 6 | [RR and MLFQ Scheduling](tutorial/T06/tutorial_06.pptx) | [tutorial 6](https://cuhk.zoom.us/rec/share/ptGM0EEdyjCcHZS26ig-4BLBWFt11TKNHqeOPHcuNUjPaiHGhoiFjstI5jhVvPwT.C9qroL2MIc-YTqWx?startTime=1677144881000)<br /> Passcode: 2xcj#@JW |  Xin | [Assignment 2](assignment/assign2) | 18:00:00 p.m., Mon, ~~Mar 6th~~ Mar 13th|
-| 7 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/j/96181788606?pwd=ZkJkOG9sYm1mV1JMTVZLZlFjUGIwUT09)<br /> Passcode: 274873 | Qin | | |
+| 7 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/rec/share/r5rKPjwnREkufuQVkcyqarDeCz7QbZ_Wltt4S7IcitWK35l38XLbvJn_WJE_LSlH.RQsFSVKHGWhOdmrI?startTime=1677749452000)<br /> Passcode: 7HTy9KE^ | Qin | | |
 
 
 
