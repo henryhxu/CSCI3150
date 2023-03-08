@@ -57,13 +57,13 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | 5 | [Deadlock](lecture/lec8-deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/a9_nFd1e78MmC6MmcG63ls5ZM5CNUbDm0uOdGBE24WM9MKanc38bbPQH_RqYDPzf.2UL914b4Rw3rdQlI?startTime=1676442659000)) | [CPU Scheduling](lecture/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/JABX_hYk8L8gOSrPGhf6GKYIFFP_OKvqSpycRoSEtsWuef-4KeK-WHwAhpiIhMWN.biqtKWk1c4MVcmaq)) | [lec8](lecture/lec8-deadlock.pdf), [lec9](lecture/lec9_sched.pdf)
 | 6 | [CPU Scheduling](lecture/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> ([►](https://t.ly/WlJEa)) | [Midterm](exam/midterm_sol.pdf)
 | 7 | [Memory Management 1](lecture/lec10_mem.pptx) ([►](https://t.ly/vXCh)) | [MM 2: Paging](lecture/lec11_paging.pptx) ([►](t.ly/VJcx)) | [lec10](lecture/lec10_mem.pdf)
-| 8 | MM 3: Swapping | 
-| 9 | File Systems 1 | 
-| 10 | File Systems 2
-| 11 | File Systems 3
-| 12 | Distributed Systems
-| 13 | Virtual Machines | Final Review |
+| 8 <br>Mar 15-16 | MM 3: Swapping | 
+| 9 <br>Mar 22-23 | File Systems 1 | 
+| 10 <br>Mar 29-30 | File Systems 2
+| 11 <br>Apr 12-13* | File Systems 3
+| 12 <br>Apr 19-20 | Distributed Systems | Final Review |
 
+\*: No class on Apr 6.
 
 ### Tutorials and Assignments
 
