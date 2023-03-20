@@ -79,7 +79,7 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | 8 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/rec/share/r5rKPjwnREkufuQVkcyqarDeCz7QbZ_Wltt4S7IcitWK35l38XLbvJn_WJE_LSlH.RQsFSVKHGWhOdmrI?startTime=1677749452000)<br /> Passcode: 7HTy9KE^ | Qin | | |
 | 9 | No Tutorial |  |  | | |
 | 10 | [Review on Assignment2 && Implementation of Page Replacement Algorithms](tutorial/T08) |  [tutorial 8](https://cuhk.zoom.us/rec/share/uvC3y79suXBuMClDQMvPyXSSBgSwHw_vrbXWg7CPVr0gqQTpupxmFNPG-Uq7HqCi.IC38cRuONT_vy9Tc) <br /> Passcode: *#X1!W?w |  Xin| | |
-| 11 |  |  |  | | |
+| 11 | [Assignment 3 Discussion] |  | Qin| [Assignment 3](assignment/assign3) | 00:00:00 p.m., Mon, Apr 17th|
 | 12 |  |  |  | | |
 | 13 | No Tutorial |  |  | | |
 | 14 |  |  |  | | |
