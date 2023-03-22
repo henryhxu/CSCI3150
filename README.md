@@ -71,19 +71,16 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
 | 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?)<br />Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
 | 2 | [Assignment 1: Background and Code Walkthrough](tutorial/T02/tut02.pptx) | [tutorial 2](https://cuhk.zoom.us/rec/share/X3-6qBKu-wuBuxGmBX6pdPg9blXWHB_XGno89tHnhV9Rv9pU7p78V-IQSJgUBOwU.oj8ylLp93FrGJ8CU?startTime=1674120628000)<br />Passcode: R+F6sah$ | Shaofeng |  |  |
-| 3 | No Tutorial |  |  | | |
-| 4 | [Assignment 1: System Calls in C](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
-| 5 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
-| 6 | [Assignment 1 Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5](https://cuhk.zoom.us/rec/share/5lIxzEoenQPB_9ml0bQfe0BDb34YkTGNZrUbfPYY67iHQllJmGcZOnTwX5RJ51KD.8sEabfJJTzygX7kJ)<br /> Passcode: euZW3fO+ |  Shaofeng |  | |
-| 7 | [RR and MLFQ Scheduling](tutorial/T06/tutorial_06.pptx) | [tutorial 6](https://cuhk.zoom.us/rec/share/ptGM0EEdyjCcHZS26ig-4BLBWFt11TKNHqeOPHcuNUjPaiHGhoiFjstI5jhVvPwT.C9qroL2MIc-YTqWx?startTime=1677144881000)<br /> Passcode: 2xcj#@JW |  Xin | [Assignment 2](assignment/assign2) | 18:00:00 p.m., Mon, ~~Mar 6th~~ Mar 13th|
-| 8 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/rec/share/r5rKPjwnREkufuQVkcyqarDeCz7QbZ_Wltt4S7IcitWK35l38XLbvJn_WJE_LSlH.RQsFSVKHGWhOdmrI?startTime=1677749452000)<br /> Passcode: 7HTy9KE^ | Qin | | |
-| 9 | No Tutorial |  |  | | |
-| 10 | [Review on Assignment2 && Implementation of Page Replacement Algorithms](tutorial/T08) |  [tutorial 8](https://cuhk.zoom.us/rec/share/uvC3y79suXBuMClDQMvPyXSSBgSwHw_vrbXWg7CPVr0gqQTpupxmFNPG-Uq7HqCi.IC38cRuONT_vy9Tc) <br /> Passcode: *#X1!W?w |  Xin| | |
-| 11 | [Assignment 3 Discussion] |  | Qin| [Assignment 3](assignment/assign3) | 00:00:00 p.m., Mon, Apr 17th|
+| 3 | [Assignment 1: System Calls in C](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
+| 4 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
+| 5 | [Assignment 1 Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5](https://cuhk.zoom.us/rec/share/5lIxzEoenQPB_9ml0bQfe0BDb34YkTGNZrUbfPYY67iHQllJmGcZOnTwX5RJ51KD.8sEabfJJTzygX7kJ)<br /> Passcode: euZW3fO+ |  Shaofeng |  | |
+| 6 | [RR and MLFQ Scheduling](tutorial/T06/tutorial_06.pptx) | [tutorial 6](https://cuhk.zoom.us/rec/share/ptGM0EEdyjCcHZS26ig-4BLBWFt11TKNHqeOPHcuNUjPaiHGhoiFjstI5jhVvPwT.C9qroL2MIc-YTqWx?startTime=1677144881000)<br /> Passcode: 2xcj#@JW |  Xin | [Assignment 2](assignment/assign2) | 18:00:00 p.m., Mon, ~~Mar 6th~~ Mar 13th|
+| 7 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/rec/share/r5rKPjwnREkufuQVkcyqarDeCz7QbZ_Wltt4S7IcitWK35l38XLbvJn_WJE_LSlH.RQsFSVKHGWhOdmrI?startTime=1677749452000)<br /> Passcode: 7HTy9KE^ | Qin | | |
+| 8 | [Review on Assignment2 && Implementation of Page Replacement Algorithms](tutorial/T08/tutorial08.pptx) |  [tutorial 8](https://cuhk.zoom.us/rec/share/uvC3y79suXBuMClDQMvPyXSSBgSwHw_vrbXWg7CPVr0gqQTpupxmFNPG-Uq7HqCi.IC38cRuONT_vy9Tc) <br /> Passcode: *#X1!W?w |  Xin| | |
+| 9 | [Assignment 3 Discussion] |  | Qin| [Assignment 3](assignment/assign3) | 00:00:00 p.m., Mon, Apr 17th|
+| 10 |  |  |  | | |
+| 11 |  |  |  | | |
 | 12 |  |  |  | | |
-| 13 | No Tutorial |  |  | | |
-| 14 |  |  |  | | |
-| 15 |  |  |  | | |
 
 
 
