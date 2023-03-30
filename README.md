@@ -93,7 +93,10 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
 | [assignment two](https://classroom.github.com/a/cvljyRld)| 18:00:00 p.m., Mon, Mar 13th | [Xin](mailto:xtan22@cse.cuhk.edu.hk) |
 | [assignment two grace token](https://classroom.github.com/a/s8XL0ADA)| 18:00:00 p.m., Tues, Mar 14th | [Xin](mailto:xtan22@cse.cuhk.edu.hk) |
-| [assignment three](https://classroom.github.com/a/2KHPqmOP)| 00:00:00 p.m., Mon, Apr 17th | [Qin](mailto:qluo22@cse.cuhk.edu.hk) |
+| [assignment three](https://classroom.github.com/a/2KHPqmOP)| 18:00:00 p.m., Mon, Apr 17th | [Qin](mailto:qluo22@cse.cuhk.edu.hk) |
+| [assignment three grace token]() (TBA)| 18:00:00 p.m., Mon, Apr 18th | [Qin](mailto:qluo22@cse.cuhk.edu.hk) |
+| [assignment four](https://classroom.github.com/a/chxl8YQg)| 18:00:00 p.m., Mon, Apr 17th | All three TAs |
+| [assignment four grace token]()(TBA)| 18:00:00 p.m., Mon, Apr 18th | All three TAs |
 
 ## Course policies
 - Assignments: 
