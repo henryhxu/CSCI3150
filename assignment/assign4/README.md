@@ -40,8 +40,8 @@
    
    |     | read_t (inum, offset, buff, count) | The data block numbers in sequence that will be read from (**only list the data blocks that contain file data**) |
    | :----- | :---- | :---- |
-   | Example1 | read_t (inum, 133, buff, 40); | 3 |
-   | Example2 | read_t (inum, 133, buff, 6000); | 3,20 |
+   | Example1 | read_t (inum, 133, buff, 40); | 5 |
+   | Example2 | read_t (inum, 133, buff, 6000); | 5,19 |
    | (i) | read_t (inum, 7000, buff, 10000); | |
    | (ii) | read_t (inum, 12000, buff, 26000); | |
    | (iii) | read_t (inum, 10000, buff, 36000); | |
