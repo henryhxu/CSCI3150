@@ -145,6 +145,7 @@ git clone https://github.com/libfuse/libfuse.git
 cd libfuse-fuse-[version number]
 # create a build directory 
 mkdir build; cd build
+meson setup ..
 # build and install 
 meson configure
 ninja
