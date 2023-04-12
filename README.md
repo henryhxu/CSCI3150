@@ -60,7 +60,7 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | 8 <br>Mar 15-16 | [MM 2: Paging](lecture/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> ([►](https://t.ly/vbDI)) | [MM 3: Swapping](lecture/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> ([►](https://t.ly/XRO5)) | [lec12](lecture/lec12_swapping.pdf)
 | 9 <br>Mar 22-23 | [I/O Devices, HDD](lecture/lec13_io.pptx)<sup>[36](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf), [37](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)</sup> ([►](https://t.ly/MrFI))| I/O Devices, HDD ([►](https://t.ly/rjXG)) | [lec13](lecture/lec13_io.pdf)
 | 10 <br>Mar 29-30 | [A Simple FS](lecture/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup> ([►](https://t.ly/0_fF)) | [LFS](lecture/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/T6hdZbbs44RMyeDees6mv-lcyTlFc2_9jQDeqJQsEwQxpYzij3mpEMZ1cOZyxA-g.rGbbRZrh2CPHuZxr)) | [lec14](lecture/lec14_fsapi.pdf) 
-| 11 <br>Apr 12-13* | [SSD](lecture/lec16_ssd.pptx)
+| 11 <br>Apr 12-13* | [SSD](lecture/lec16_ssd.pptx)<sup>[44](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf)</sup> ([►](https://t.ly/agWS)) | SSD
 | 12 <br>Apr 19-20 | Distributed Systems | Final Review |
 
 \*: No class on Apr 6.
