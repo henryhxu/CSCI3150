@@ -1,0 +1,118 @@
+------------------------------------------------------------
+Page Replacement Simulated Program for CSCI 3150 (Hong Xu, Henry@CSE,CUHK)
+The element in FIFO cache in the 0 round:
+1 
+The element in LRU cache in the 0 round:
+1 
+The element in FIFO cache in the 1 round:
+2 1 
+The element in LRU cache in the 1 round:
+2 1 
+The element in FIFO cache in the 2 round:
+3 2 1 
+The element in LRU cache in the 2 round:
+3 2 1 
+The element in FIFO cache in the 3 round:
+3 2 1 
+The element in LRU cache in the 3 round:
+1 3 2 
+The element in FIFO cache in the 4 round:
+4 3 2 
+The element in LRU cache in the 4 round:
+4 1 3 
+The element in FIFO cache in the 5 round:
+1 4 3 
+The element in LRU cache in the 5 round:
+1 4 3 
+The element in FIFO cache in the 6 round:
+1 4 3 
+The element in LRU cache in the 6 round:
+3 1 4 
+Total times of missing in FIFO:5
+Total times of missing in LRU:4
+------------------------------------------------------------
+Page Replacement Simulated Program for CSCI 3150 (Hong Xu, Henry@CSE,CUHK)
+After assessing 1, the elements in FIFO cache:
+1 
+After assessing 1, the elements in LRU cache:
+1 
+After assessing 2, the elements in FIFO cache:
+2 1 
+After assessing 2, the elements in LRU cache:
+2 1 
+After assessing 3, the elements in FIFO cache:
+3 2 1 
+After assessing 3, the elements in LRU cache:
+3 2 1 
+After assessing 1, the elements in FIFO cache:
+3 2 1 
+After assessing 1, the elements in LRU cache:
+1 3 2 
+After assessing 4, the elements in FIFO cache:
+4 3 2 
+After assessing 4, the elements in LRU cache:
+4 1 3 
+After assessing 1, the elements in FIFO cache:
+1 4 3 
+After assessing 1, the elements in LRU cache:
+1 4 3 
+After assessing 3, the elements in FIFO cache:
+1 4 3 
+After assessing 3, the elements in LRU cache:
+3 1 4 
+Total times of missing in FIFO:5
+Total times of missing in LRU:4
+------------------------------------------------------------
+Page Replacement Simulated Program for CSCI 3150 (Hong Xu, Henry@CSE,CUHK)
+After assessing 1, the elements in FIFO cache:1 
+After assessing 1, the elements in LRU cache:1 
+After assessing 2, the elements in FIFO cache:2 1 
+After assessing 2, the elements in LRU cache:2 1 
+After assessing 3, the elements in FIFO cache:3 2 1 
+After assessing 3, the elements in LRU cache:3 2 1 
+After assessing 1, the elements in FIFO cache:3 2 1 
+After assessing 1, the elements in LRU cache:1 3 2 
+After assessing 4, the elements in FIFO cache:4 3 2 
+After assessing 4, the elements in LRU cache:4 1 3 
+After assessing 1, the elements in FIFO cache:1 4 3 
+After assessing 1, the elements in LRU cache:1 4 3 
+After assessing 3, the elements in FIFO cache:1 4 3 
+After assessing 3, the elements in LRU cache:3 1 4 
+Total times of missing in FIFO:5
+Total times of missing in LRU:4
+------------------------------------------------------------
+Page Replacement Simulated Program for CSCI 3150 (Hong Xu, Henry@CSE,CUHK)
+After assessing 1, the elements in FIFO cache:1 
+the elements in LRU cache:1 
+
+After assessing 2, the elements in FIFO cache:2 1 
+the elements in LRU cache:2 1 
+
+After assessing 3, the elements in FIFO cache:3 2 1 
+the elements in LRU cache:3 2 1 
+
+After assessing 1, the elements in FIFO cache:3 2 1 
+the elements in LRU cache:1 3 2 
+
+After assessing 4, the elements in FIFO cache:4 3 2 
+the elements in LRU cache:4 1 3 
+
+After assessing 1, the elements in FIFO cache:1 4 3 
+the elements in LRU cache:1 4 3 
+
+After assessing 3, the elements in FIFO cache:1 4 3 
+the elements in LRU cache:3 1 4 
+
+Total times of missing in FIFO:5
+Total times of missing in LRU:4
+------------------------------------------------------------
+Page Replacement Simulated Program for CSCI 3150 (Hong Xu, Henry@CSE,CUHK)
+After assessing 1, the elements in FIFO cache:1 the elements in LRU cache:1 
+After assessing 2, the elements in FIFO cache:2 1 the elements in LRU cache:2 1 
+After assessing 3, the elements in FIFO cache:3 2 1 the elements in LRU cache:3 2 1 
+After assessing 1, the elements in FIFO cache:3 2 1 the elements in LRU cache:1 3 2 
+After assessing 4, the elements in FIFO cache:4 3 2 the elements in LRU cache:4 1 3 
+After assessing 1, the elements in FIFO cache:1 4 3 the elements in LRU cache:1 4 3 
+After assessing 3, the elements in FIFO cache:1 4 3 the elements in LRU cache:3 1 4 
+Total times of missing in FIFO:5
+Total times of missing in LRU:4
