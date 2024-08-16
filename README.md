@@ -1,25 +1,26 @@
-# CSCI3150 Intro to Operating Systems, Spring 2023
+# CSCI3150 Intro to Operating Systems, Fall 2024
 
 ## Administrivia
 
 ### Schedule
 - Lectures: 
-  * Wed 2:30pm – 4:15pm, MMW LT1 
-  * Thu 11:30am – 12:15pm, MMW LT1 
+  * Tue 12:30pm – 2:15pm, ERB LT
+  * Wed 10:30am – 11:15am, ERB LT 
 - Tutorials:
-  * Thu 2:30pm – 3:15pm, SHB 904 
-  * Thu 5:30pm – 6:15pm, SHB 123
+  * L01, Thu 10:30am - 11:15am, SHB 123 
+  * L02, Thu 11:30am - 12:15pm, SHB 123
+  * L03, Thu 2:30pm - 3:15pm, SHB 924
+  * L04, Thu 4:30pm - 5:15pm, SHB 123
+  * L05, Thu 5:30pm - 6:15pm, SHB 123
 
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong (Henry)](https://henryhxu.github.io/) | Prof | Mon 3-5 pm, SHB 914. **By appointments only.** |
-| [Wu, Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) | Head TA | Mon 3-5 pm, SHB 117. |
-| [Tan, Xin](mailto:xtan22@cse.cuhk.edu.hk) | TA | Mon 3-5 pm, SHB 117. |
-| [Luo, Qin](mailto:qluo22@cse.cuhk.edu.hk) | TA | Tue 1-3 pm, SHB 913. |
+
 
 ### Piazza
-The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/spring2023/csci3150).
+The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
 All communication about this course is done over Piazza. This includes questions, discussions, announcements, as well as private messages. 
 The self-signup code is "3150 rocks!".
 
@@ -43,8 +44,6 @@ The course materials are partly based upon the following classic textbook:
 
 ## Schedules
 Click on the topic to access the slides, on the superscript to access the corresponding chapters in the textbook, and on the ► to watch the recording.
-
-Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 
 ### Lectures
 
@@ -70,33 +69,12 @@ Midterm quiz will be held on Thur, Feb 23, during our lecture time.
 | Week | Topic | Link | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
 | 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?)<br />Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
-| 2 | [Assignment 1: Background and Code Walkthrough](tutorial/T02/tut02.pptx) | [tutorial 2](https://cuhk.zoom.us/rec/share/X3-6qBKu-wuBuxGmBX6pdPg9blXWHB_XGno89tHnhV9Rv9pU7p78V-IQSJgUBOwU.oj8ylLp93FrGJ8CU?startTime=1674120628000)<br />Passcode: R+F6sah$ | Shaofeng |  |  |
-| 3 | [Assignment 1: System Calls in C](tutorial/T03/tut03.pptx) | [tutorial 3](https://cuhk.zoom.us/rec/share/AChkaeM1HL_qjCGlgpCNso5y8pO0Q2lnmrmBx4GA8FBqgrcUMSI1HKBICoAWkC0I.zDn3X3KwnKxBjp3j?startTime=1675330422000)<br />Passcode: 628F%d.v | Shaofeng |  |  |
-| 4 | [Mutex, Semaphore and Condition Variables](tutorial/T04/tutorial04.pptx) | [tutorial 4](https://cuhk.zoom.us/rec/share/__6p_nBPjvjwHpwccJoWNa6CsFWWHqFDVG3GXv5YJubu9Q6ByURU6JgsxpHINqgK.gFL2iaQ_tkuN5gHm?startTime=1675935564000)<br /> Passcode: W%2PNB9! | Xin, Shaofeng |  | |
-| 5 | [Assignment 1 Review & Deadlocks](tutorial/T05/tut05.pptx) | [tutorial 5](https://cuhk.zoom.us/rec/share/5lIxzEoenQPB_9ml0bQfe0BDb34YkTGNZrUbfPYY67iHQllJmGcZOnTwX5RJ51KD.8sEabfJJTzygX7kJ)<br /> Passcode: euZW3fO+ |  Shaofeng |  | |
-| 6 | [RR and MLFQ Scheduling](tutorial/T06/tutorial_06.pptx) | [tutorial 6](https://cuhk.zoom.us/rec/share/ptGM0EEdyjCcHZS26ig-4BLBWFt11TKNHqeOPHcuNUjPaiHGhoiFjstI5jhVvPwT.C9qroL2MIc-YTqWx?startTime=1677144881000)<br /> Passcode: 2xcj#@JW |  Xin | [Assignment 2](assignment/assign2) | 18:00:00 p.m., Mon, ~~Mar 6th~~ Mar 13th|
-| 7 | [Virtual Memory and Address Translation](tutorial/T07/Tutorial7.pptx) | [tutorial 7](https://cuhk.zoom.us/rec/share/r5rKPjwnREkufuQVkcyqarDeCz7QbZ_Wltt4S7IcitWK35l38XLbvJn_WJE_LSlH.RQsFSVKHGWhOdmrI?startTime=1677749452000)<br /> Passcode: 7HTy9KE^ | Qin | | |
-| 8 | [Review on Assignment2 && Implementation of Page Replacement Algorithms](tutorial/T08/tutorial08.pptx) |  [tutorial 8](https://cuhk.zoom.us/rec/share/uvC3y79suXBuMClDQMvPyXSSBgSwHw_vrbXWg7CPVr0gqQTpupxmFNPG-Uq7HqCi.IC38cRuONT_vy9Tc) <br /> Passcode: *#X1!W?w |  Xin| | |
-| 9 | [Assignment 3 Preliminaries and Hints](/tutorial/T09/Tutorial9.pptx) | [tutorial 9](https://cuhk.zoom.us/rec/share/asR5TLViGIOeKV-IhDxFhYFOZ81S1MxF5amHgR1ehH9ytBi600CT9bleorg3uIlh.ZUAemuootmGgAeR0?startTime=1679663710000)<br /> Passcode: J85vMG*5 | Qin| [Assignment 3](assignment/assign3) | 18:00:00 p.m., Mon, Apr 17th|
-| 10 | [File System APIs && Filesystem in Userspace](tutorial/T10/tutorial10.pptx) | [tutorial 10](https://cuhk.zoom.us/rec/share/7FMVPS_oUwoe9NSE1BCJebUInmoO6ejeOdHH27Qs_LU0XAuS3s_YZkU1O4USMXqH.mwJg00lrc91SyDDD?startTime=1680181378000)<br /> Passcode: 4u&%S66q | Xin | [Assignment 4](assignment/assign4) | 18:00:00 p.m., Mon, Apr 17th
-| 11 | [FAT File System](tutorial/T11/Tutorial11.pptx) | [tutorial 11](https://cuhk.zoom.us/rec/share/-nIrJyN8GF2_JFU7RJ56wHWfM_hU4v2gpkx2qyRH11JeH0wmD2IzsGfZRjo1oU1X.F2aveXhmZeOIwOCR?startTime=1681378260000) <br /> Passcode: Y*29vk30 |  Qin| | |
-| 12 | [Review on Assignment 3 & 4](tutorial/T12/Tutorial12.pptx) | [tutorial 12](https://cuhk.zoom.us/rec/share/UPdwXx6TmsEaO6JLAAwj7FcOMi8U-wIRHs3WSoP88azsbztd-yCv2Aky2OBBpHEx.mLPgKVpUTfm97jQ4?startTime=1681983036000) <br /> Passcode:3C*XC%&6 | Qin | | |
-
-
-
 
 
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
 | [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
-| [assignment one grace token](https://classroom.github.com/a/-vtYT42w)| 18:00:00 p.m., Tues, Feb 14th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
-| [assignment two](https://classroom.github.com/a/cvljyRld)| 18:00:00 p.m., Mon, Mar 13th | [Xin](mailto:xtan22@cse.cuhk.edu.hk) |
-| [assignment two grace token](https://classroom.github.com/a/s8XL0ADA)| 18:00:00 p.m., Tues, Mar 14th | [Xin](mailto:xtan22@cse.cuhk.edu.hk) |
-| [assignment three](https://classroom.github.com/a/2KHPqmOP)| 18:00:00 p.m., Mon, Apr 17th | [Qin](mailto:qluo22@cse.cuhk.edu.hk) |
-| [assignment three grace token](https://classroom.github.com/a/4oJJwoBB) | 18:00:00 p.m., Tues, Apr 18th | [Qin](mailto:qluo22@cse.cuhk.edu.hk) |
-| [assignment four](https://classroom.github.com/a/chxl8YQg)| 18:00:00 p.m., Mon, Apr 17th | All three TAs |
-| [assignment four grace token](https://classroom.github.com/a/9Z1bL6WT)| 18:00:00 p.m., Tues, Apr 18th | All three TAs |
 
 ## Course policies
 - Assignments: 
