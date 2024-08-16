@@ -51,16 +51,7 @@ Click on the topic to access the slides, on the superscript to access the corres
 | :-----------: | :-----------------: |  :------------: | :------------: | :------------: |
 | 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | [lec1](lecture/lec1_intro.pdf), [lec2](lecture/lec2_arch.pdf)
 | 2 | [Processes](lecture/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
-| 3 | [Threads](lecture/lec4_threads.pptx)<sup>[25](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)</sup>, [Synchronization 1](lecture/lec5_sync.pptx)<sup>[28](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)</sup> | [Synchronization 1](lecture/lec5_sync.pptx) | [lec4](lecture/lec4_threads.pdf), [lec5](lecture/lec5_sync.pdf)
-| 4 | [Sync 2: Condition Variables](lecture/lec6_cv.pptx)<sup>[30](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf)</sup> | [Sync 3: Semaphore](lecture/lec7_sema.pptx)<sup>[31](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/yuyeZJMrIlh5WQwHqBqrxM6WrCuRteAldP9xrof5Ai9i1yWpytZdq-YVrdODcls.KglAjWI29muOW6wW?startTime=1675913119000)) | [lec6](lecture/lec6_cv.pdf), [lec7](lecture/lec7_sema.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
-| 5 | [Deadlock](lecture/lec8-deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/a9_nFd1e78MmC6MmcG63ls5ZM5CNUbDm0uOdGBE24WM9MKanc38bbPQH_RqYDPzf.2UL914b4Rw3rdQlI?startTime=1676442659000)) | [CPU Scheduling](lecture/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/JABX_hYk8L8gOSrPGhf6GKYIFFP_OKvqSpycRoSEtsWuef-4KeK-WHwAhpiIhMWN.biqtKWk1c4MVcmaq)) | [lec8](lecture/lec8-deadlock.pdf), [lec9](lecture/lec9_sched.pdf)
-| 6 | [CPU Scheduling](lecture/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> ([►](https://t.ly/WlJEa)) | [Midterm](exam/midterm_sol.pdf)
-| 7 | [Memory Management 1](lecture/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> ([►](https://t.ly/vXCh)) | [MM 2: Paging](lecture/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> ([►](https://t.ly/VJcx)) | [lec10](lecture/lec10_mem.pdf), [lec11](lecture/lec11_paging.pdf)
-| 8 <br>Mar 15-16 | [MM 2: Paging](lecture/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> ([►](https://t.ly/vbDI)) | [MM 3: Swapping](lecture/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> ([►](https://t.ly/XRO5)) | [lec12](lecture/lec12_swapping.pdf)
-| 9 <br>Mar 22-23 | [I/O Devices, HDD](lecture/lec13_io.pptx)<sup>[36](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf), [37](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)</sup> ([►](https://t.ly/MrFI))| I/O Devices, HDD ([►](https://t.ly/rjXG)) | [lec13](lecture/lec13_io.pdf)
-| 10 <br>Mar 29-30 | [A Simple FS](lecture/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup> ([►](https://t.ly/0_fF)) | [LFS](lecture/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup> ([►](https://cuhk.zoom.us/rec/share/T6hdZbbs44RMyeDees6mv-lcyTlFc2_9jQDeqJQsEwQxpYzij3mpEMZ1cOZyxA-g.rGbbRZrh2CPHuZxr)) | [lec14](lecture/lec14_fsapi.pdf), [lec15](lecture/lec15_lfs.pdf)  
-| 11 <br>Apr 12-13* | [SSD](lecture/lec16_ssd.pptx)<sup>[44](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf)</sup> ([►](https://t.ly/agWS)) | SSD ([►](https://t.ly/MLt0)) | [lec16](lecture/lec16_ssd.pdf) 
-| 12 <br>Apr 19-20 | [Virtualization](lecture/lec17_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup> ([►](https://t.ly/BWB5)) | [Networking](lecture/lec18.pdf),<br> [Final Review](lecture/lec_final.pptx) ([►](https://t.ly/3h6mP)) |
+
 
 \*: No class on Apr 6.
 
@@ -68,13 +59,13 @@ Click on the topic to access the slides, on the superscript to access the corres
 
 | Week | Topic | Link | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
-| 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) | [tutorial 1](https://cuhk.zoom.us/rec/share/GEVKNpggSubf1AC2g69JJW0ObC5RUIyQ-_Nwc8UbnugL4lEoqa8F09GnW0mTLgQd.kgEuaH_RMddgmK7F?startTime=1673515811000%20Passcode:%20$Xq+fY6?)<br />Passcode: $Xq+fY6? | Shaofeng | [Assignment 1](assignment/assign1) | 18:00:00 p.m., Mon, Feb 13th |
+| 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) |  | Shaofeng | [Assignment 1](assignment/assign1) |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment one](https://classroom.github.com/a/33LJk-O2) | 18:00:00 p.m., Mon, Feb 13th | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+|  |  | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
 
 ## Course policies
 - Assignments: 
