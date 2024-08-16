@@ -53,8 +53,6 @@ Click on the topic to access the slides, on the superscript to access the corres
 | 2 | [Processes](lecture/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> | [Processes](lecture/lec3_processes.pptx) | [lec3](lecture/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
 
 
-\*: No class on Apr 6.
-
 ### Tutorials and Assignments
 
 | Week | Topic | Link | TA | Assignment | Due |
