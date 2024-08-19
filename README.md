@@ -19,7 +19,7 @@
 | [Luo, Qin](mailto:qluo22@cse.cuhk.edu.hk) | TA | Tue 1-3 pm, SHB 913. |
 
 ### Piazza
-The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
+The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/spring2023/csci3150).
 All communication about this course is done over Piazza. This includes questions, discussions, announcements, as well as private messages. 
 The self-signup code is "3150 rocks!".
 
