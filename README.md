@@ -16,7 +16,7 @@
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Xu, Hong](https://henryhxu.github.io/) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment.** |
+| [Xu, Hong](https://henryhxu.github.io/) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment** |
 
 
 ### Piazza
