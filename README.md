@@ -17,8 +17,8 @@
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment** |
-| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
-| Yang, Yitao (ytyang@cse) | TA | Thu 12:30-2:30 pm, SHB 117. |
+| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA | Thu 12:30-2:30 pm, SHB 117. |
+| Yang, Yitao (ytyang@cse) | TA |  |
 | Li, Jianqiang (jqli1@cse) | TA |  |
 | Chen, Kaiwen (kwchen24@cse) | TA | Thu 12:30-2:30 pm, SHB 904. |
 | Chen, Yuetao (ytchen24@cse) | TA |  |
