@@ -24,9 +24,11 @@
 | Chen, Yuetao (ytchen24@cse) | TA |  |
 | Feng, Yicheng (ycfeng@cse) | TA |  |
 
+**[NOTE]**: Due to the large class size (200+ students), please do **not** email us individually. Piazza should be used for all Q&A.
+
 ### Piazza
 The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
-All communication about this course is done over Piazza. This includes questions, discussions, announcements, as well as private messages. 
+**All** communication about this course is done over Piazza. This includes questions, discussions, announcements, as well as private messages. 
 The self-signup code is "3150 rocks!".
 
 ## Course outline
