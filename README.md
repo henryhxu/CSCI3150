@@ -18,11 +18,11 @@
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment** |
 | [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
-| Yang, Yitao (ytyang23@cse) | TA |  |
-| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
-| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
-| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
-| [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
+| Yang, Yitao (ytyang@cse) | TA |  |
+| Li, Jianqiang (jqli1@cse) | TA |  |
+| Chen, Kaiwen (kwchen24@cse) | TA |  |
+| Chen, Yuetao (ytchen24@cse) | TA |  |
+| Feng, Yicheng (ycfeng@cse) | TA |  |
 
 ### Piazza
 The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
