@@ -20,7 +20,7 @@
 | [Wu, Shaofeng](https://shaofengwu123.github.io/) | Head TA |  |
 | Yang, Yitao (ytyang@cse) | TA | Thu 12:30-2:30 pm, SHB 117. |
 | Li, Jianqiang (jqli1@cse) | TA |  |
-| Chen, Kaiwen (kwchen24@cse) | TA | Thu 10:00-12:00 am, SHB 904. |
+| Chen, Kaiwen (kwchen24@cse) | TA | Thu 12:30-2:30 pm, SHB 904. |
 | Chen, Yuetao (ytchen24@cse) | TA |  |
 | Feng, Yicheng (ycfeng@cse) | TA |  |
 
