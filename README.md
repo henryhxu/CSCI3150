@@ -62,15 +62,15 @@ Click on the topic to access the slides, on the superscript to access the corres
 
 ### Tutorials and Assignments
 
-| Week | Topic | Link | TA | Assignment | Due |
-| :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
-| 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) |  | Shaofeng | [Assignment 1](assignment/assign1) |  |
+| Week | Topic | TA | Assignment | Due |
+| :---: | :------------------: | :-----: | :-------------: | :-------------: |
+| 1 | [Basic review: Linux, git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/asg1) | 18:00:00 p.m., Mon, Oct 7th |
 
 
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-|  |  | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| TBA | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
 
 ## Course policies
 - Assignments: 
