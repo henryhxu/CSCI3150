@@ -56,21 +56,21 @@ Click on the topic to access the slides, on the superscript to access the corres
 
 | Week | Tue Lecture | Wed Lecture | PDFs | Optional readings |
 | :-----------: | :-----------------: |  :------------: | :------------: | :------------: |
-| 1 | [Intro](lecture/lec1_intro.pptx), [Arch support](lecture/lec2_arch.pptx) | [Arch support](lecture/lec2_arch.pptx) | 
-| 2 | [Processes](lecture/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> |  |  | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
+| 1 | [Intro](lectures/lec1_intro.pptx), [Arch support](lectures/lec2_arch.pptx) | [Arch support](lectures/lec2_arch.pptx) | 
+| 2 | [Processes](lectures/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> |  |  | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
 
 
 ### Tutorials and Assignments
 
-| Week | Topic | Link | TA | Assignment | Due |
-| :---: | :------------------: | :-----: | :-----: | :-------------: | :-------------: |
-| 1 | [Linux, gcc, git, and C](tutorial/T01/tut01.pptx) |  | Shaofeng | [Assignment 1](assignment/assign1) |  |
+| Week | Topic | TA | Assignment | Due |
+| :---: | :------------------: | :-----: | :-------------: | :-------------: |
+| 1 | [Basic review: Linux, git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/asg1) | 18:00:00 p.m., Mon, Oct 7th |
 
 
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-|  |  | [Shaofeng](mailto:sfwu22@cse.cuhk.edu.hk) |
+| TBA | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
 
 ## Course policies
 - Assignments: 
