@@ -65,13 +65,14 @@ Click on the topic to access the slides, on the superscript to access the corres
 
 | Week | Topic | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic review: Linux, git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/asg1) | 18:00:00 p.m., Mon, Oct 7th |
+| 1 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/asg1) | 18:00:00 p.m., Mon, Oct 7th |
+| 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| TBA | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
+| [assignment-one](https://classroom.github.com/a/rrprBsu4) | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
 
 ## Course policies
 - Assignments: 
