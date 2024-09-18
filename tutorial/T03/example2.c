@@ -5,7 +5,7 @@
 
 int main(){
 
-    char *file_name = "my_env";
+    char *file_name = "./my_env";
     char *argv[32] = {"my_env", NULL}; 
     char *envp[2] = { "ABC=1", NULL};
 
