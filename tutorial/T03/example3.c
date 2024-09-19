@@ -11,7 +11,7 @@ int main(){
         printf("Fork error\n");
         exit(-1);
     }
-    else if(pid == 0){
+    else if(pid > 0){
         /* parent */
         printf("parent is doing something\n");
         sleep(5);
