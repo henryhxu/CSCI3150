@@ -69,6 +69,7 @@ Click on the topic to access the slides, on the superscript to access the corres
 | 1 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/asg1) | 18:00:00 p.m., Mon, Oct 7th |
 | 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
+| 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  Jianqiang |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
