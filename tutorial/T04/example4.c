@@ -10,7 +10,11 @@ pthread_rwlock_t rwlock;
 void* reader(void* arg) {
     long tid = (long)arg; // Get the thread ID
     pthread_rwlock_rdlock(&rwlock);
+    printf("Reader %ld begins reading...\n", tid);
+    sleep(1);
     printf("Reader %ld: %d\n", tid, shared_data);
+    sleep(1);
+    printf("Reader %ld ends reading.\n", tid);
     pthread_rwlock_unlock(&rwlock);
     return NULL;
 }
@@ -18,8 +22,12 @@ void* reader(void* arg) {
 void* writer(void* arg) {
     long tid = (long)arg; // Get the thread ID
     pthread_rwlock_wrlock(&rwlock);
+    printf("Writer %ld begins writing...\n", tid);
+    sleep(1);
     shared_data++;
     printf("Writer %ld: %d\n", tid, shared_data);
+    sleep(1);
+    printf("Writer %ld ends writing.\n", tid);
     pthread_rwlock_unlock(&rwlock);
     return NULL;
 }
