@@ -71,7 +71,7 @@ Click on the topic to access the slides, on the superscript to access the corres
 | 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
 | 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  Jianqiang |  |  |
-| 5 | [Condition variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Jianqiang |  |  |
+| 5 | [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Jianqiang |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
