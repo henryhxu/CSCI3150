@@ -50,7 +50,7 @@ The course materials are partly based upon the following classic textbook:
 \*: To encourage tutorial participation, quiz or simple programming task will be conducted at the tutorials randomly. We will randomly pick 5 tutorials and perform this at the end of the tutorial. Each quiz/programming task is worth one mark. There will also be a midterm written quiz worth 5 marks; the date will be announced in a later time.
 
 ## Schedules
-Click on the topic to access the slides, on the superscript to access the corresponding chapters in the textbook, and on the ► to watch the recording.
+Click on the topic to access the slides, and on the superscript to access the corresponding chapters in the textbook.
 
 ### Lectures
 
