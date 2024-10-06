@@ -79,6 +79,7 @@ Click on the topic to access the slides, and on the superscript to access the co
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
 | [assignment-one](https://classroom.github.com/a/rrprBsu4) | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
+| [assignment-one-grace-token](https://classroom.github.com/a/De3qyMyL) | 18:00:00 p.m., Mon, Oct 8th | Shaofeng |
 | [assignment-two](https://classroom.github.com/a/ECgb6vfZ) | 18:00:00 p.m., Mon, Nov 4th | Jianqiang & Yuetao |
 
 ## Course policies
