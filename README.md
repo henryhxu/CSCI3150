@@ -21,7 +21,7 @@
 | [Yang, Yitao](TA_pics/yitao.jpg) (ytyang@cse) | TA | Fri 1:00-3:00 pm, SHB 121 |
 | [Li, Jianqiang](TA_pics/jianqiang.jpg) (jqli1@cse) | TA | Wed 2:30-4:30 pm, SHB 904. |
 | [Chen, Kaiwen](TA_pics/kaiwen.jpg) (kwchen24@cse) | TA | Fri 10:00-12:00 am, SHB 904. |
-| [Chen, Yuetao](TA_pics/yuetao.jpg) (ytchen24@cse) | TA | Thu 1:00-3:00 pm, SHB 904 |
+| [Chen, Yuetao](TA_pics/yuetao.jpg) (ytchen24@cse) | TA | TUE 1:00-3:00 pm, SHB 904 |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA |  |
 
 **[NOTE]**: Due to the large class size (200+ students), please do **not** email us individually. Piazza should be used for all Q&A.
@@ -74,6 +74,8 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
 | 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  Jianqiang |  |  |
 | 5 | [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Jianqiang | [Assignment 2](https://classroom.github.com/a/ECgb6vfZ) | 18:00:00 p.m., Mon, Nov 4th |
+| 6 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yuetao |  |  |
+| 7 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yuetao |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
