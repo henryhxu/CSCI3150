@@ -22,7 +22,7 @@
 | [Li, Jianqiang](TA_pics/jianqiang.jpg) (jqli1@cse) | TA | Wed 2:30-4:30 pm, SHB 904. |
 | [Chen, Kaiwen](TA_pics/kaiwen.jpg) (kwchen24@cse) | TA | Fri 10:00-12:00 am, SHB 904. |
 | [Chen, Yuetao](TA_pics/yuetao.jpg) (ytchen24@cse) | TA | TUE 1:00-3:00 pm, SHB 904 |
-| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA |  |
+| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Wed 2:00-4:30 pm, SHB 904 |
 
 **[NOTE]**: Due to the large class size (200+ students), please do **not** email us individually. Piazza should be used for all Q&A.
 
