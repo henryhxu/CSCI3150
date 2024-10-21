@@ -63,7 +63,7 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 5 | National Day | [Sync 2: Condition Variables](lectures/lec6_cv.pptx) | [Sync 2](lectures/lec6_cv.pdf)
 | 6 | [Sync 3: Semaphore](lectures/lec7_sema.pptx)<sup>[31](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)</sup> | [Deadlock](lectures/lec8_deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> | [Sync 3](lectures/lec7_sema.pdf), [Deadlock](lectures/lec8_deadlock.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
 | 7 | [CPU <br />Scheduling](lectures/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> | [Midterm] | [Scheduling](lectures/lec9_sched.pdf)
-| 8 | CPU Scheduling, <br />[Memory Management 1](lectures/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> | 
+| 8 | [Memory <br />Management 1](lectures/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> | 
 
 
 ### Tutorials and Assignments
