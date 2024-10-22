@@ -82,6 +82,7 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 5 | [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Jianqiang | [Assignment 2](https://classroom.github.com/a/ECgb6vfZ) | 18:00:00 p.m., Mon, Nov 4th |
 | 6 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yuetao |  |  |
 | 7 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yuetao |  |  |
+| 7 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Kaiwen & Jianqiang |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
