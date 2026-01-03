@@ -1,4 +1,4 @@
-# CSCI3150 Intro to Operating Systems, Fall 2024
+# CSCI3150 Intro to Operating Systems, Spring 2026
 
 ## Administrivia
 
@@ -9,22 +9,15 @@
 - Tutorials:
   * L01, Thu 10:30am - 11:15am, SHB 123 
   * L02, Thu 11:30am - 12:15pm, SHB 123
-  * L03, Thu 2:30pm - 3:15pm, SHB 924
-  * L04, Thu 4:30pm - 5:15pm, SHB 123
-  * L05, Thu 5:30pm - 6:15pm, SHB 123
 
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment** |
 | [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | Head TA | Thu 12:30-2:30 pm, SHB 117. |
-| [Yang, Yitao](TA_pics/yitao.jpg) (ytyang@cse) | TA | Fri 1:00-3:00 pm, SHB 121 |
-| [Li, Jianqiang](TA_pics/jianqiang.jpg) (jqli1@cse) | TA | Wed 2:30-4:30 pm, SHB 904. |
-| [Chen, Kaiwen](TA_pics/kaiwen.jpg) (kwchen24@cse) | TA | Fri 10:00-12:00 am, SHB 904. |
-| [Chen, Yuetao](TA_pics/yuetao.jpg) (ytchen24@cse) | TA | TUE 1:00-3:00 pm, SHB 904 |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Wed 2:00-4:30 pm, SHB 904 |
 
-**[NOTE]**: Due to the large class size (200+ students), please do **not** email us individually. Piazza should be used for all Q&A.
+**[NOTE]**: Due to the large class size, please do **not** email us individually. Piazza should be used for all Q&A.
 
 ### Piazza
 The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
@@ -63,15 +56,6 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 2 | [Processes](lectures/lec3_processes.pptx)<sup>[4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)</sup> | [Processes](lectures/lec3_processes.pptx) | [Processes](lectures/lec3_processes.pdf) | [A fork() in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) <br />[The Evolution of the Unix Time-sharing System](https://www.bell-labs.com/usr/dmr/www/hist.html)
 | 3 | [Threads](lectures/lec4_threads.pptx)<sup>[26](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)</sup> | Mid-autumn Festival | [Threads](lectures/lec4_threads.pdf) | [Why Threads Are A Bad Idea (for most purposes)](https://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf)
 | 4 | [Sync 1: Locks](lectures/lec5_sync.pptx)<sup>[28](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)</sup> | [Sync 2: Condition Variables](lectures/lec6_cv.pptx)<sup>[30](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf)</sup> | [Sync 1](lectures/lec5_sync.pdf), <br />[Sync 2](lectures/lec6_cv.pdf)|
-| 5 | National Day | [Sync 2: Condition Variables](lectures/lec6_cv.pptx) | [Sync 2](lectures/lec6_cv.pdf)
-| 6 | [Sync 3: Semaphore](lectures/lec7_sema.pptx)<sup>[31](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf)</sup> | [Deadlock](lectures/lec8_deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> | [Sync 3](lectures/lec7_sema.pdf), [Deadlock](lectures/lec8_deadlock.pdf) | [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/), <br />[Hierarchical ordering of sequential processes](https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD310.PDF)
-| 7 | [CPU <br />Scheduling](lectures/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> | Midterm | [Scheduling](lectures/lec9_sched.pdf)
-| 8 | [Mem. Manag. 1](lectures/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> | -- | [MEM 1](lectures/lec10_mem.pdf)
-| 9 | [Mem.: Paging](lectures/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> | -- | [Paging](lectures/lec11_paging.pdf)
-| 10 | [Mem.: Swapping](lectures/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> | [I/O Devices](lectures/lec13_io.pptx)<sup>[36](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf), [37](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)</sup> | [Swapping](lectures/lec12_swapping.pdf), <br />[I/O Devices](lectures/lec13_io.pdf)
-| 11 | [A Simple FS](lectures/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup> | -- | [VSFS](lectures/lec14_fsapi.pdf)
-| 12 | [LFS](lectures/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup> | [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup> | [LFS](lectures/lec15_lfs.pdf), [virt](lectures/lec16_virtualization.pdf) | [The Design and Implementation of A Log-Structured File System](https://web.stanford.edu/~ouster/cgi-bin/papers/lfs.pdf)
-| 13 | [Networking](lectures/lec17_net.pptx) | [Final Review](lectures/lec18_final.pptx) | [Net](lectures/lec17_net.pdf) | [It's Time for Operating Systems to Rediscover Hardware](https://www.youtube.com/watch?v=36myc8wQhLo&t=3s)
 
 The following material provides a nice overview of microkernels and kernel architecture, an intriguing topic I wish I had time to teach.
 - [Section 1: Kernel architecture, CS161, Harvard](https://read.seas.harvard.edu/cs161/2024/sections/section1/)
@@ -100,12 +84,6 @@ The following material provides a nice overview of microkernels and kernel archi
 | :-------------: | :-------------: | :-----: |
 | [assignment-one](https://classroom.github.com/a/rrprBsu4) | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
 | [assignment-one-grace-token](https://classroom.github.com/a/De3qyMyL) | 18:00:00 p.m., Tue, Oct 8th | Shaofeng |
-| [assignment-two](https://classroom.github.com/a/ECgb6vfZ) | 18:00:00 p.m., Mon, Nov 4th | Jianqiang & Yuetao |
-| [assignment-two-grace-token](https://classroom.github.com/a/16BukB_p) | 18:00:00 p.m., Tue, Nov 5th | Jianqiang & Yuetao |
-| [assignment-three](https://classroom.github.com/a/QVfUU-LW)  | 18:00:00 p.m., Mon, Nov 18th | Kaiwen |
-| [assignment-three-grace-token](https://classroom.github.com/a/X0fFn8UQ)  | 18:00:00 p.m., Tue, Nov 19th | Kaiwen |
-| [assignment-four](https://classroom.github.com/a/CC6luaQm)  | 18:00:00 p.m., Mon, Dec 9th | Yitao & Yicheng |
-| [assignment-four-grace-token](https://classroom.github.com/a/szhJfZ6n)  | 18:00:00 p.m., TUE, Dec 10th | Yitao & Yicheng |
 
 ## Course policies
 - Assignments: 
