@@ -14,9 +14,9 @@
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
-| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | Head TA | , SHB 117. |
+| [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | Head TA | , SHB 904 |
+| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | , SHB 117. |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | , SHB 904 |
-| [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | TA | , SHB 904 |
 | [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | , SHB 904 |
 
 **[NOTE]**: Due to the large class size, please do **not** email us individually. Piazza should be used for all Q&A.
