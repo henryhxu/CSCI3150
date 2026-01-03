@@ -4,16 +4,16 @@
 
 ### Schedule
 - Lectures: 
-  * Tue 12:30pm – 2:15pm, ERB LT
-  * Wed 10:30am – 11:15am, ERB LT 
+  * Wed 2:30pm – 4:15pm, LSB LT-5
+  * Thu 4:30pm – 5:15pm, LSK LT-2 
 - Tutorials:
-  * L01, Thu 10:30am - 11:15am, SHB 123 
-  * L02, Thu 11:30am - 12:15pm, SHB 123
+  * L01, Thu 2:30pm - 3:15pm, SHB 924 
+  * L02, Thu 5:30am - 6:15pm, SHB 123
 
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 2:30-4:30 pm, SHB 914. **By appointment** |
+| [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
 | [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | Head TA | Thu 12:30-2:30 pm, SHB 117. |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Wed 2:00-4:30 pm, SHB 904 |
 
