@@ -14,13 +14,15 @@
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
-| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | Head TA | Thu 12:30-2:30 pm, SHB 117. |
-| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Wed 2:00-4:30 pm, SHB 904 |
+| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | Head TA | , SHB 117. |
+| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | , SHB 904 |
+| [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | TA | , SHB 904 |
+| [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | , SHB 904 |
 
 **[NOTE]**: Due to the large class size, please do **not** email us individually. Piazza should be used for all Q&A.
 
 ### Piazza
-The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/fall2024/csci3150).
+The Piazza page for this course is [here](https://piazza.com/cuhk.edu.hk/spinrg2026/csci3150).
 **All** communication about this course is done over Piazza. This includes questions, discussions, announcements, as well as private messages. 
 The self-signup code is "3150 rocks!".
 
@@ -68,15 +70,7 @@ The following material provides a nice overview of microkernels and kernel archi
 | 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
 | 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  Jianqiang |  |  |
-| 5 | [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Jianqiang | [Assignment 2](https://classroom.github.com/a/ECgb6vfZ) | 18:00:00 p.m., Mon, Nov 4th |
-| 6 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yuetao |  |  |
-| 7 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yuetao |  |  |
-| 8 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Kaiwen & Jianqiang | [Assignment 3](https://classroom.github.com/a/QVfUU-LW ) | 18:00:00 p.m., Mon, Nov 18th |
-| 9 | [Swapping Algorithms](tutorial/T09/tut09.pptx) | Kaiwen |  |  |
-| 10 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) |Yitao  | | |
-| 11 | cancelled | | [Assignment 4](https://classroom.github.com/a/CC6luaQm) | 18:00:00 p.m., Mon, Dec. 9th |
-| 12 | [File System API](tutorial/T11/tut11.pptx) | Kaiwen |  |  |
-| 12 | [FAT File System](tutorial/T12/tut12.pptx) | Yitao |  |  |
+
 
 ### Assignment Submission(Github Classroom) and Contact
 
