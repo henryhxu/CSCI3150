@@ -8,14 +8,14 @@
   * Thu 4:30pm – 5:15pm, LSK LT-2 
 - Tutorials:
   * L01, Thu 2:30pm - 3:15pm, SHB 924 
-  * L02, Thu 5:30am - 6:15pm, SHB 123
+  * L02, Thu 5:30pm - 6:15pm, SHB 123
 
 ### Team
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
 | [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | Head TA | , SHB 904 |
-| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | , SHB 117. |
+| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | Thu 3:30pm - 5:30pm, SHB 117 (first seat on your left hand when you enter SHB 117). |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | , SHB 904 |
 | [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | , SHB 904 |
 
@@ -66,18 +66,18 @@ The following material provides a nice overview of microkernels and kernel archi
 
 | Week | Topic | TA | Assignment | Due |
 | :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](https://classroom.github.com/a/rrprBsu4) | 18:00:00 p.m., Mon, Oct 7th |
+| 1 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | TBA |
 | 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
-| 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  Jianqiang |  |  |
+| 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  TBA |  |  |
 
 
 ### Assignment Submission(Github Classroom) and Contact
 
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment-one](https://classroom.github.com/a/rrprBsu4) | 18:00:00 p.m., Mon, Oct 7th | Shaofeng |
-| [assignment-one-grace-token](https://classroom.github.com/a/De3qyMyL) | 18:00:00 p.m., Tue, Oct 8th | Shaofeng |
+| [assignment-one]() | TBA | Shaofeng |
+| [assignment-one-grace-token]() | TBA | Shaofeng |
 
 ## Course policies
 - Assignments: 
