@@ -14,10 +14,10 @@
 | Member | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) (hongxu@cuhk) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
-| [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | Head TA | , SHB 904 |
-| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | Thu 3:30pm - 5:30pm, SHB 117 (first seat on your left hand when you enter SHB 117). |
-| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | , SHB 904 |
-| [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | , SHB 904 |
+| [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | Head TA | Thu 9:30am - 11:30am, SHB 117 |
+| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | Fri 2:00pm - 4:00pm, SHB 117 (first seat on your left hand when you enter SHB 117). |
+| [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Fri 2:30pm - 4:30pm, SHB 904 |
+| [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | Tue 3:00pm -5:00pm, SHB 117 |
 
 **[NOTE]**: Due to the large class size, please do **not** email us individually. Piazza should be used for all Q&A.
 
@@ -64,13 +64,23 @@ The following material provides a nice overview of microkernels and kernel archi
 
 ### Tutorials and Assignments
 
-| Week | Topic | TA | Assignment | Due |
-| :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | TBA |
-| 2 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
-| 3 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
-| 4 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) |  TBA |  |  |
-
+| Week | Date | Topic | TA | Assignment | Due |
+| :---: | :---: | :------------------: | :-----: | :-------------: | :-------------: |
+| 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | TBA |
+| 2 | Jan 15 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
+| 3 | Jan 22 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
+| 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo |  |  |
+| 5 | Feb 5 |  [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Yicheng | [Assignment 2]() | TBA |
+| 6 | Feb 12 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yicheng |  |  |
+| 7 | Feb 19 | Holiday |  |  |  |
+| 8 | Feb 26 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yicheng |  |  |
+| 9 | Mar 5 | Reading Week |  | [Assignment 3]() | TBA |
+| 10 | Mar 12 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Yangtao |  |  |
+| 11 | Mar 19 | [Swapping Algorithms](tutorial/T09/tut09.pptx) | Yangtao |  |  |
+| 12 | Mar 26 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) | Yangtao | [Assignment 4]() | TBA |
+| 13 | Apr 2 | [File System API](tutorial/T11/tut11.pptx) | Chaobo |  |  |
+| 14 | Apr 9 | [FAT File System](tutorial/T12/tut12.pptx) | Chaobo |  |  |
+| 15 | Apr 16 | TBA | TBA |  |  |
 
 ### Assignment Submission(Github Classroom) and Contact
 
@@ -78,6 +88,12 @@ The following material provides a nice overview of microkernels and kernel archi
 | :-------------: | :-------------: | :-----: |
 | [assignment-one]() | TBA | Shaofeng |
 | [assignment-one-grace-token]() | TBA | Shaofeng |
+| [assignment-two]() | TBA | Yicheng |
+| [assignment-two-grace-token]() | TBA | Yicheng |
+| [assignment-three]() | TBA | Yangtao |
+| [assignment-three-grace-token]() | TBA | Yangtao |
+| [assignment-four]() | TBA | Chaobo |
+| [assignment-four-grace-token]() | TBA | Chaobo |
 
 ## Course policies
 - Assignments: 
