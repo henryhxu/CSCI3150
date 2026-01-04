@@ -72,15 +72,15 @@ The following material provides a nice overview of microkernels and kernel archi
 | 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo |  |  |
 | 5 | Feb 5 |  [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Yicheng | [Assignment 2]() | TBA |
 | 6 | Feb 12 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yicheng |  |  |
-| 7 | Feb 19 | Holiday |  |  |  |
-| 8 | Feb 26 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yicheng |  |  |
-| 9 | Mar 5 | Reading Week |  | [Assignment 3]() | TBA |
-| 10 | Mar 12 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Yangtao |  |  |
-| 11 | Mar 19 | [Swapping Algorithms](tutorial/T09/tut09.pptx) | Yangtao |  |  |
-| 12 | Mar 26 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) | Yangtao | [Assignment 4]() | TBA |
-| 13 | Apr 2 | [File System API](tutorial/T11/tut11.pptx) | Chaobo |  |  |
-| 14 | Apr 9 | [FAT File System](tutorial/T12/tut12.pptx) | Chaobo |  |  |
-| 15 | Apr 16 | TBA | TBA |  |  |
+|  | Feb 19 | Holiday |  |  |  |
+| 7 | Feb 26 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yicheng |  |  |
+|  | Mar 5 | Reading Week |  | [Assignment 3]() | TBA |
+| 8 | Mar 12 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Yangtao |  |  |
+| 9 | Mar 19 | [Swapping Algorithms](tutorial/T09/tut09.pptx) | Yangtao |  |  |
+| 10 | Mar 26 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) | Yangtao | [Assignment 4]() | TBA |
+| 11 | Apr 2 | [File System API](tutorial/T11/tut11.pptx) | Chaobo |  |  |
+| 12 | Apr 9 | [FAT File System](tutorial/T12/tut12.pptx) | Chaobo |  |  |
+| 13 | Apr 16 | TBA | TBA |  |  |
 
 ### Assignment Submission(Github Classroom) and Contact
 
