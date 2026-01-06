@@ -66,7 +66,7 @@ The following material provides a nice overview of microkernels and kernel archi
 
 | Week | Date | Topic | TA | Assignment | Due |
 | :---: | :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | TBA |
+| 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | 23:59:59 p.m., Feb. 1 |
 | 2 | Jan 15 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | Jan 22 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
 | 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo |  |  |
@@ -86,8 +86,8 @@ The following material provides a nice overview of microkernels and kernel archi
 
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment-one]() | TBA | Shaofeng |
-| [assignment-one-grace-token]() | TBA | Shaofeng |
+| [assignment-one]() | 23:59:59 p.m., Feb. 1 | Shaofeng |
+| [assignment-one-grace-token]() | 23:59:59 p.m., Feb. 2 | Shaofeng |
 | [assignment-two]() | TBA | Yicheng |
 | [assignment-two-grace-token]() | TBA | Yicheng |
 | [assignment-three]() | TBA | Yangtao |
@@ -105,7 +105,7 @@ The following material provides a nice overview of microkernels and kernel archi
   * The University's guide is [here](https://www.aqs.cuhk.edu.hk/documents/A-guide-for-students_use-of-AI-tools.pdf).
   * Our approach is **Approach 1 – Prohibit all use of AI tools**.
 - Lectures and tutorials:
-  * Be on time. Set your mobile device to vibration/silient mode.
+  * Be on time. Set your mobile device to vibration/silent mode.
   * Feel free to ask questions and raise comments during the lecture, but we can only entertain short questions and discussions in-class.
   * Longer and deeper discussion and questions can happen in tutorials.
   * Follow University's regulations on COVID, including use of masks, hand sanitization, seating with social distance, etc.
