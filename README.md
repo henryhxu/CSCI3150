@@ -66,7 +66,7 @@ The following material provides a nice overview of microkernels and kernel archi
 
 | Week | Date | Topic | TA | Assignment | Due |
 | :---: | :---: | :------------------: | :-----: | :-------------: | :-------------: |
-| 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1]() | 23:59:59 p.m., Feb. 1 |
+| 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/assignment-1) | 23:59:59 p.m., Feb. 1 |
 | 2 | Jan 15 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | Jan 22 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
 | 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo |  |  |
@@ -86,14 +86,14 @@ The following material provides a nice overview of microkernels and kernel archi
 
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
-| [assignment-one]() | 23:59:59 p.m., Feb. 1 | Shaofeng |
-| [assignment-one-grace-token]() | 23:59:59 p.m., Feb. 2 | Shaofeng |
-| [assignment-two]() | TBA | Yicheng |
-| [assignment-two-grace-token]() | TBA | Yicheng |
-| [assignment-three]() | TBA | Yangtao |
-| [assignment-three-grace-token]() | TBA | Yangtao |
-| [assignment-four]() | TBA | Chaobo |
-| [assignment-four-grace-token]() | TBA | Chaobo |
+| [Assignment 1](https://classroom.github.com/a/OdaI-yvZ) | 23:59:59 p.m., Feb. 1 | Shaofeng |
+| [Assignment 1 Grace Token]() | 23:59:59 p.m., Feb. 2 | Shaofeng |
+| [Assignment 2]() | TBA | Yicheng |
+| [Assignment 2 Grace Token]() | TBA | Yicheng |
+| [Assignment 3]() | TBA | Yangtao |
+| [Assignment 3 Grace Token]() | TBA | Yangtao |
+| [Assignment 4]() | TBA | Chaobo |
+| [Assignment 4 Grace Token]() | TBA | Chaobo |
 
 ## Course policies
 - Assignments: 
