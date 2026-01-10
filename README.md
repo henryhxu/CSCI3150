@@ -15,7 +15,7 @@
 | :---------------- | :--- | :----------- |
 | [Xu, Hong](https://henryhxu.github.io/) | Prof | Tue 9:00-11:00 pm, SHB 914. **By appointment** |
 | [Deng, Yangtao](TA_pics/yangtao.jpg) (ytdeng25@cse) | Head TA | Thu 9:30am - 11:30am, SHB 117 |
-| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | Fri 2:00pm - 4:00pm, SHB 117 (first seat on your left hand when you enter SHB 117). |
+| [Wu, Shaofeng](TA_pics/shaofeng.jpg) (sfwu22@cse) | TA | Fri 2:00pm - 4:00pm, SHB 117  |
 | [Feng, Yicheng](TA_pics/yicheng.jpg) (ycfeng@cse) | TA | Fri 2:30pm - 4:30pm, SHB 904 |
 | [Jia, Chaobo](TA_pics/chaobo.jpg) (cbjia25@cse) | TA | Tue 3:00pm -5:00pm, SHB 117 |
 
