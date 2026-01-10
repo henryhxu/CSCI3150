@@ -33,7 +33,7 @@ int shell_execute(char ** args, int argc){
 		/* TODO: execute the command and check if the command is correctly executed */
 	}
 	
-	/* TODOs: one pipe and two pipes */
+	/* TODOs: arbitrary number of pipes */
 	
 
 	/* wait for child process to terminate */

@@ -4,9 +4,9 @@
 >
 > - Topic: implementation of a simple shell program in C
 > - Total Marks: 100
-> - Deadline: 23:59 p.m., Sun, Feb. 1
+> - Deadline: 23:59 p.m., Mon, Jan. 26
 > - Submission: Github classroom
-> - High-level aim:
+> - High-level Aim:
 >
 >   - Understanding how to interact with Linux.
 >   - Implement a basic shell that supports
@@ -35,7 +35,9 @@ Implement a shell program that supports the following functionalities:
   user@OSLAB1:/dir1$
   ```
 
-  We only require you to support cd command **with one argument**, which is a path. We do not require you to support other scenarios such as cd with flags.
+  We only require you to support cd command **with one path argument**, including `cd .`, `cd ..`, `cd ../../`, `cd ./src`, etc.
+  We do not require you to support other scenarios such as cd with flags.
+
 - single external commands, i.e. `ls`, `ps`, etc.
 
   Your shell program should be able to execute single command with arguments. For example:
@@ -46,9 +48,9 @@ Implement a shell program that supports the following functionalities:
   drwxrwxr-x 2 user user 4096 Jan  12 12:00 dir2
   user@OSLAB1:/dir1$ 
   ```
-- pipes between commands. The program should support up to **two pipes**.
+- pipes between commands. The program should support **arbitrary number of pipes**
 
-  Your shell program should be able to execute commands with up to two pipes between them. For example:
+  Your shell program should be able to execute commands with arbitrary number of pipes between them. For example:
 
   ```shell
   user@OSLAB1:/dir1$ ls -l | grep dir | wc -l
@@ -59,7 +61,7 @@ Implement a shell program that supports the following functionalities:
 
 > [!Note]
 >
-> Your program should be able to handle the case in which **there are at least one space(or tab, or both) before and one space(or tab, or both) after the pipe meta character “|”**. If there is no space before or after “|”, for example, for the following case:“ls|” is treated as **one argument** to be executed (rather than “ls” and “|”). Although in real bash shells, "ls|" will still be treated as command "ls" followed by pipe meta character, we do not require you to deal with such scenarios in assignment one. We are also aware of this when designing our grading test cases.
+> Your program should be able to handle the case in which **there are at least one space(or tab, or both) before and one space(or tab, or both) after the pipe meta character “|”**. If there is no space before or after “|”, for example, for the following case:“ls|” is treated as **one argument** to be executed (rather than “ls” and “|”). Although in real bash shells, "ls|" will still be treated as command "ls" followed by pipe meta character, we do not require you to deal with such scenarios in assignment 1. We are also aware of this when designing our grading test cases.
 >
 > Check `src/README.md` for more test cases.
 

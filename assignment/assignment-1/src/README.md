@@ -43,7 +43,7 @@ We provide these testcases in the autograding workflow of repos in Github classr
 
 ## How to submit the assignment?
 
-Due: 23:59 p.m., Sun, Feb. 1
+Due: 23:59 p.m., Mon, Jan. 26
 Please join the github classroom before due. You only need to modify simple-execute.c.
 Note: To use grace token, we provide a separate assignment in github classroom named "assignment_1_grace_token" for your submission. The entrance to this assignment will be released immediately after the normal deadline. DO NOT accept grace token assignment unless you do want to use grace token.
 
