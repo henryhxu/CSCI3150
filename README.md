@@ -69,8 +69,8 @@ The following material provides a nice overview of microkernels and kernel archi
 | 1 | Jan 8 | [Basic Review: Linux, Git, and C](tutorial/T01/tut01.pptx) |  Shaofeng | [Assignment 1](assignment/assignment-1) | 23:59:59 p.m., Jan. 26 |
 | 2 | Jan 15 | [Assignment One: Background Knowledge and Code Walk](tutorial/T02/tut02.pptx) |  Shaofeng |  |  |
 | 3 | Jan 22 | [Assignment One: System Calls in C Programming ](tutorial/T03/tut03.pptx) |  Shaofeng |  |  |
-| 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo |  |  |
-| 5 | Feb 5 |  [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Yicheng | [Assignment 2]() | TBA |
+| 4 | Jan 29 | [Mutex Lock Implementation via pthread Library in C](tutorial/T04/tut04.pptx) | Chaobo | [Assignment 2]() | TBA |
+| 5 | Feb 5 |  [Condition Variables via pthread Library in C](tutorial/T05/tut05.pptx) |  Yicheng |  |  |
 | 6 | Feb 12 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yicheng |  |  |
 |  | Feb 19 | Holiday |  |  |  |
 | 7 | Feb 26 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yicheng |  |  |
