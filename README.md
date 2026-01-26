@@ -88,7 +88,7 @@ The following material provides a nice overview of microkernels and kernel archi
 | Assignment Classroom | Due | Contact TA |
 | :-------------: | :-------------: | :-----: |
 | [Assignment 1](https://classroom.github.com/a/YnSDVcuC) | 23:59:59 p.m., Jan. 26 | Shaofeng |
-| [Assignment 1 Grace Token]() | 23:59:59 p.m., Jan. 27 | Shaofeng |
+| [Assignment 1(Grace Token)](https://classroom.github.com/a/TsU9gaaF) | 23:59:59 p.m., Jan. 27 | Shaofeng |
 | [Assignment 2]() | 23:59:59 p.m., Mar. 1st | Yicheng |
 | [Assignment 2 Grace Token]() | 23:59:59 p.m., Mar. 2nd | Yicheng |
 | [Assignment 3]() | TBA | Yangtao |
