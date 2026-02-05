@@ -33,8 +33,8 @@ In this question, you are required to implement a priority-based read-write lock
 
 1. Implement the functions in `src/rwlock.c`. This is the ONLY file you need to modify.
 2. Use `make` to build the project.
-3. Use `.\Readwritelock` to run the program. It shall be done in 15s and 2 logs will be generated under `logs/`.
-4. Run tests with `make test`. We provide two test cases as stated in Hint for you to debug. Passing the test DOESN'T necessarily mean your program is FULLY correct. You are encouraged to check the output log on your own.
+3. Use `.\Readwritelock` to run the program. It shall be done in 15s and 1 log will be generated under `logs/` by default (`reader_preference.log`).
+4. Run tests with `make test`. We provide test cases as stated in Hint for you to debug. Passing the test DOESN'T necessarily mean your program is FULLY correct. You are encouraged to check the output log on your own.
 5. You are NOT allowed to use `pthread_rwlock_t` and related functions. Instead, implement the lock with the struct `rwlock_t` defined in `src/rwlock.h`.
 
 ## File Descriptions
@@ -43,13 +43,14 @@ In this question, you are required to implement a priority-based read-write lock
 - **src/rwlock.c**: Implement your lock here. This is the ONLY file you need to modify.
 - **src/main.c**: Example usage of the lock.
 - **logs/**: Dir the output log will be stored.
-- **tests/analyze_logs.c**: A simple script to analyze log outputs. 
+- **tests/analyze_logs.c**: A simple script to analyze log outputs.
 
 ## Hint
+
 1. You need to use `pthread_cond_broadcast()` instead of `pthread_cond_signal()` when you want to wake up some waiting threads, because the scheduling inside read or write threads is also priority-based instead of FIFO. Think of the case where a high-priority writer waits behind a low-priority writer (or many) in the waiting queue for `&rwlock->writers_cond`.
 
-
 2. At least, you should consider the following two cases:
+
 - Set all readers as "high priority" and all writers as "low priority". In this case, your lock should behave as reader preference and you may observe the starvation of writers.
 - Set all writers as "high priority" and all readers as "low priority". In this case, your lock should behave as writer preference and you may observe the starvation of readers. Specifically, when a reader has acquired a read lock, another reader can acquire the read lock only if (1) no other writer is waiting (writer preference), and (2) the number of active readers is less than 5 (reader limit).
 
