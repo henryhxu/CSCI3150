@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Question 1 - Compilation",
+      "setup": "cd Question1",
+      "run": "make clean && make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 0
+    },
+    {
+      "name": "Question 1 - Basic Test",
+      "setup": "cd Question1",
+      "run": "./Readwritelock && test -f logs/reader_preference.log && [ $(wc -l < logs/reader_preference.log) -gt 1 ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 0
+    },
+    {
+      "name": "Question 2-1 - Answer File Exists",
+      "setup": "",
+      "run": "test -f Question2/answer.md && grep -q '|' Question2/answer.md",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Question 2 Bonus - Compilation",
+      "setup": "cd Question2/bonus",
+      "run": "make clean 2>/dev/null; make all",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 0
+    }
+  ]
+}

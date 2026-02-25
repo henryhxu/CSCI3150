@@ -1,3 +1,3 @@
 ProcessNum 2
-pidnum:1023, arrival_time:10, execution_time:20
-pidnum:36, arrival_time:10, execution_time:10
+pid:1023, arrival_time:10, execution_time:20
+pid:36, arrival_time:10, execution_time:10

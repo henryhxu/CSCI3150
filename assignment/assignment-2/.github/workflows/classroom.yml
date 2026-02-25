@@ -1,0 +1,491 @@
+name: GitHub Classroom Autograding
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+env:
+  # Score weights for each question
+  Q1_MAX_SCORE: 60
+  Q2_1_MAX_SCORE: 40
+  Q2_BONUS_COMPILE_FEEDBACK: true
+
+jobs:
+  # ============================================
+  # Question 1: Read-Write Lock (60 pts)
+  # Uses rule-based validation for non-deterministic output
+  # ============================================
+  question1-grading:
+    name: Question 1 - Read-Write Lock (60 pts)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      score: ${{ steps.q1_grade.outputs.q1_score }}
+    
+    steps:
+      - name: Checkout student code
+        uses: actions/checkout@v4
+      
+      - name: Setup grading environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc make
+      
+      - name: Checkout hidden test cases
+        if: github.event_name == 'push'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.GRADING_REPO }}
+          token: ${{ secrets.GRADING_TOKEN }}
+          path: grading-resources
+        continue-on-error: true
+      
+      - name: Check if grading resources exist
+        id: check_resources
+        run: |
+          if [ -d "grading-resources/question1" ]; then
+            echo "has_resources=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_resources=false" >> $GITHUB_OUTPUT
+            echo "::warning::Grading resources not available. Running basic validation only."
+          fi
+      
+      - name: Compile student code
+        id: compile
+        run: |
+          cd Question1
+          if make clean && make; then
+            echo "compile_status=success" >> $GITHUB_OUTPUT
+          else
+            echo "compile_status=failed" >> $GITHUB_OUTPUT
+            echo "::error::Question 1: Compilation FAILED"
+          fi
+        continue-on-error: true
+      
+      - name: Run grading with hidden test cases
+        id: q1_grade
+        if: steps.compile.outputs.compile_status == 'success' && steps.check_resources.outputs.has_resources == 'true'
+        run: |
+          cd Question1
+          TOTAL_SCORE=0
+          
+          # Define test case scores (matching analyze_logs.c)
+          declare -a SCORES=(20 20 5 5 10)
+          
+          # Run each test case
+          for i in 1 2 3 4 5; do
+            echo "=== Running Test Case $i ==="
+            
+            # Replace main.c with hidden test case
+            cp ../grading-resources/question1/testcases/main${i}.c src/main.c
+            
+            # Recompile with new main.c
+            make clean && make
+            
+            # Run with timeout
+            timeout 30s ./Readwritelock 2>/dev/null || true
+            
+            # Compile and run the log analyzer
+            gcc -o analyze_logs ../grading-resources/question1/grading_scripts/analyze_logs.c
+            
+            # Run analyzer and capture result
+            RESULT=$(./analyze_logs 2>&1)
+            echo "$RESULT"
+            
+            # Extract pass/fail for this test case
+            if echo "$RESULT" | grep -q "Test Case $i.*PASSED"; then
+              CASE_SCORE=${SCORES[$((i-1))]}
+              TOTAL_SCORE=$((TOTAL_SCORE + CASE_SCORE))
+              echo "✅ Test Case $i: PASSED (+$CASE_SCORE pts)"
+            else
+              echo "❌ Test Case $i: FAILED (0 pts)"
+            fi
+          done
+          
+          echo "q1_score=$TOTAL_SCORE" >> $GITHUB_OUTPUT
+          echo "::notice::Question 1 Total Score: $TOTAL_SCORE/60"
+      
+      - name: Run basic validation (fallback)
+        id: q1_basic
+        if: steps.compile.outputs.compile_status == 'success' && steps.check_resources.outputs.has_resources == 'false'
+        run: |
+          cd Question1
+          
+          # Run the student's default test
+          timeout 30s ./Readwritelock 2>/dev/null || true
+          
+          # Check if log files were created
+          if [ -f "logs/reader_preference.log" ]; then
+            # Basic validation: check if log has content beyond header
+            LINE_COUNT=$(wc -l < logs/reader_preference.log)
+            if [ "$LINE_COUNT" -gt 1 ]; then
+              echo "q1_score=0" >> $GITHUB_OUTPUT
+              echo "::notice::Question 1: Basic test passed (score pending manual review)"
+            else
+              echo "q1_score=0" >> $GITHUB_OUTPUT
+              echo "::warning::Question 1: Log file appears incomplete"
+            fi
+          else
+            echo "q1_score=0" >> $GITHUB_OUTPUT
+            echo "::error::Question 1: No log file generated"
+          fi
+      
+      - name: Set score for failed compilation
+        if: steps.compile.outputs.compile_status == 'failed'
+        run: echo "q1_score=0" >> $GITHUB_OUTPUT
+      
+      - name: Report Q1 Score
+        run: |
+          echo "## Question 1: Read-Write Lock" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.compile.outputs.compile_status }}" == "failed" ]; then
+            echo "❌ **Compilation: FAILED**" >> $GITHUB_STEP_SUMMARY
+            echo "**Score: 0/60**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **Compilation: PASSED**" >> $GITHUB_STEP_SUMMARY
+            if [ "${{ steps.check_resources.outputs.has_resources }}" == "true" ]; then
+              echo "**Score: ${{ steps.q1_grade.outputs.q1_score }}/60**" >> $GITHUB_STEP_SUMMARY
+            else
+              if [ "${{ github.event_name }}" == "pull_request" ]; then
+                echo "_Hidden tests run on push to main; this PR run shows compilation/basic checks only._" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "**Score: Pending manual review**" >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          fi
+
+  # ============================================
+  # Question 2-1: MLFQ Table (40 pts)
+  # Compares markdown table cell by cell
+  # ============================================
+  question2-1-grading:
+    name: Question 2-1 - MLFQ Table (40 pts)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      score: ${{ steps.q2_1_grade.outputs.q2_1_score }}
+    
+    steps:
+      - name: Checkout student code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Checkout grading resources
+        if: github.event_name == 'push'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.GRADING_REPO }}
+          token: ${{ secrets.GRADING_TOKEN }}
+          path: grading-resources
+        continue-on-error: true
+      
+      - name: Check if grading resources exist
+        id: check_resources
+        run: |
+          if [ -f "grading-resources/question2_subq1/answer_solution.md" ]; then
+            echo "has_resources=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_resources=false" >> $GITHUB_OUTPUT
+            echo "::warning::Grading resources not available for Q2-1."
+          fi
+      
+      - name: Check answer.md exists
+        id: check_answer
+        run: |
+          if [ -f "Question2/answer.md" ]; then
+            echo "has_answer=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_answer=false" >> $GITHUB_OUTPUT
+            echo "::error::Question2/answer.md not found!"
+          fi
+      
+      - name: Grade answer.md
+        id: q2_1_grade
+        if: steps.check_answer.outputs.has_answer == 'true' && steps.check_resources.outputs.has_resources == 'true'
+        run: |
+          python3 << 'EOF'
+          import sys
+          
+          def read_markdown_table(file_path):
+              """Read a markdown table from a file and return as a list of lists."""
+              with open(file_path, 'r', encoding='utf-8') as f:
+                  lines = f.readlines()
+              
+              # Find the start of the table
+              table_start = None
+              for i, line in enumerate(lines):
+                  if '|' in line:
+                      table_start = i
+                      break
+              
+              if table_start is None:
+                  return []
+              
+              # Skip header and separator lines, get data rows
+              table_lines = [line for line in lines[table_start+2:] if '|' in line]
+              table = [line.strip().split('|')[1:-1] for line in table_lines]
+              return [[cell.strip() for cell in row] for row in table]
+          
+          try:
+              answer = read_markdown_table('grading-resources/question2_subq1/answer_solution.md')
+              student = read_markdown_table('Question2/answer.md')
+              
+              if not answer or not student:
+                  print("::error::Could not parse tables")
+                  print("q2_1_score=0")
+                  sys.exit(0)
+              
+              diff_cells = 0
+              total_cells = 0
+              
+              # Compare row by row
+              max_rows = max(len(answer), len(student))
+              for i in range(max_rows):
+                  if i < len(answer) and i < len(student):
+                      # Both have this row
+                      for j in range(min(len(answer[i]), len(student[i]))):
+                          total_cells += 1
+                          if answer[i][j] != student[i][j]:
+                              diff_cells += 1
+                      # Handle different column counts
+                      col_diff = abs(len(answer[i]) - len(student[i]))
+                      diff_cells += col_diff
+                      total_cells += col_diff
+                  else:
+                      # One table has more rows
+                      if i < len(answer):
+                          diff_cells += len(answer[i])
+                          total_cells += len(answer[i])
+                      else:
+                          diff_cells += len(student[i])
+                          total_cells += len(student[i])
+              
+              # Calculate score (based on correctness percentage)
+              # Using the formula from the original check_q2_1.py
+              same_percentage = 1 - (diff_cells / 100) if total_cells > 0 else 0
+              score = max(0, round(same_percentage * 40))
+              
+              print(f"Total cells compared: {total_cells}")
+              print(f"Different cells: {diff_cells}")
+              print(f"Correctness: {same_percentage:.2%}")
+              print(f"Score: {score}/40")
+              
+              # Write output
+              with open('$GITHUB_OUTPUT', 'a') as f:
+                  f.write(f"q2_1_score={score}\n")
+              
+              print(f"::notice::Question 2-1 Score: {score}/40")
+              
+          except Exception as e:
+              print(f"::error::Grading error: {str(e)}")
+              with open('$GITHUB_OUTPUT', 'a') as f:
+                  f.write("q2_1_score=0\n")
+          EOF
+      
+      - name: Set default score if resources missing
+        if: steps.check_resources.outputs.has_resources == 'false' || steps.check_answer.outputs.has_answer == 'false'
+        run: |
+          echo "q2_1_score=0" >> $GITHUB_OUTPUT
+      
+      - name: Report Q2-1 Score
+        run: |
+          echo "## Question 2-1: MLFQ Table" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_answer.outputs.has_answer }}" == "false" ]; then
+            echo "❌ **answer.md: NOT FOUND**" >> $GITHUB_STEP_SUMMARY
+            echo "**Score: 0/40**" >> $GITHUB_STEP_SUMMARY
+          elif [ "${{ steps.check_resources.outputs.has_resources }}" == "false" ]; then
+            if [ "${{ github.event_name }}" == "pull_request" ]; then
+              echo "_Hidden grading runs on push to main; this PR run does not use grading secrets._" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "**Score: Pending manual review**" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "**Score: ${{ steps.q2_1_grade.outputs.q2_1_score }}/40**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # ============================================
+  # Question 2 Bonus: MLFQ Implementation (10 pts)
+  # Full autograding is executed, but only compilation status is shown to students.
+  # ============================================
+  question2-bonus-grading:
+    name: Question 2 Bonus - MLFQ Implementation (Autograded; compile status only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      compile_status: ${{ steps.q2_bonus_compile.outputs.compile_status }}
+      score: ${{ steps.q2_bonus_grade.outputs.q2_bonus_score }}
+    
+    steps:
+      - name: Checkout student code
+        uses: actions/checkout@v4
+
+      - name: Checkout grading resources (Q2 Bonus)
+        if: github.event_name == 'push'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.GRADING_REPO }}
+          token: ${{ secrets.GRADING_TOKEN }}
+          path: grading-resources
+        continue-on-error: true
+
+      - name: Check if Q2 Bonus grading resources exist
+        id: check_bonus_resources
+        shell: bash
+        run: |
+          # Support either layout in the grading repo:
+          # - grading-resources/question2_bonus/...
+          # - grading-resources/solution/question2_bonus/...
+          if [ -f "grading-resources/question2_bonus/testcases/output.log_1" ]; then
+            echo "has_resources=true" >> $GITHUB_OUTPUT
+            echo "testcases_dir=grading-resources/question2_bonus/testcases" >> $GITHUB_OUTPUT
+          elif [ -f "grading-resources/solution/question2_bonus/testcases/output.log_1" ]; then
+            echo "has_resources=true" >> $GITHUB_OUTPUT
+            echo "testcases_dir=grading-resources/solution/question2_bonus/testcases" >> $GITHUB_OUTPUT
+          else
+            echo "has_resources=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Setup build environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc make
+      
+      - name: Check if bonus code exists
+        id: check_bonus
+        run: |
+          if [ -f "Question2/bonus/scheduler-impl.c" ]; then
+            echo "has_bonus=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_bonus=false" >> $GITHUB_OUTPUT
+            echo "::notice::Question 2 Bonus: scheduler-impl.c not found (bonus not attempted)"
+          fi
+      
+      - name: Compile bonus code
+        id: q2_bonus_compile
+        if: steps.check_bonus.outputs.has_bonus == 'true'
+        continue-on-error: true
+        run: |
+          cd Question2/bonus
+          make clean 2>/dev/null || true
+          
+          # Capture compilation output
+          if make all 2>&1 | tee compile_output.txt; then
+            echo "compile_status=success" >> $GITHUB_OUTPUT
+            echo "::notice::Question 2 Bonus: Compilation PASSED"
+          else
+            echo "compile_status=failed" >> $GITHUB_OUTPUT
+            echo "::error::Question 2 Bonus: Compilation FAILED"
+            echo "Compilation errors:"
+            cat compile_output.txt
+          fi
+
+      - name: Run Q2 Bonus test cases (grade silently)
+        id: q2_bonus_grade
+        if: steps.check_bonus.outputs.has_bonus == 'true' && steps.q2_bonus_compile.outputs.compile_status == 'success'
+        shell: bash
+        run: |
+          # Default score (kept private; not shown to students)
+          Q2_BONUS_SCORE=0
+
+          # If grading resources are unavailable, keep score at 0.
+          if [ "${{ steps.check_bonus_resources.outputs.has_resources }}" != "true" ]; then
+            echo "q2_bonus_score=$Q2_BONUS_SCORE" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          TESTCASES_DIR="${{ steps.check_bonus_resources.outputs.testcases_dir }}"
+
+          cd Question2/bonus
+
+          # Weighting matches the existing TA-side rule: TC1=3, TC2=3, TC3=4 (total 10)
+          for i in 1 2 3; do
+            # Prepare inputs
+            cp "../../$TESTCASES_DIR/process.file_${i}" process.file
+            cp "../../$TESTCASES_DIR/queue.cfg_${i}" queue.cfg
+
+            # Run with timeout to avoid hangs
+            timeout 10s ./Scheduler >/dev/null 2>&1 || true
+
+            # Normalize & compare (ignore all whitespace)
+            tr -d '[:space:]' < output.log > got.norm || true
+            tr -d '[:space:]' < "../../$TESTCASES_DIR/output.log_${i}" > exp.norm || true
+
+            if cmp -s got.norm exp.norm; then
+              if [ "$i" = "1" ] || [ "$i" = "2" ]; then
+                Q2_BONUS_SCORE=$((Q2_BONUS_SCORE + 3))
+              else
+                Q2_BONUS_SCORE=$((Q2_BONUS_SCORE + 4))
+              fi
+            fi
+          done
+
+          echo "q2_bonus_score=$Q2_BONUS_SCORE" >> $GITHUB_OUTPUT
+      
+      - name: Set status for missing bonus
+        if: steps.check_bonus.outputs.has_bonus == 'false'
+        run: echo "compile_status=not_attempted" >> $GITHUB_OUTPUT
+      
+      - name: Report Compilation Status
+        run: |
+          echo "## Question 2 Bonus: MLFQ Implementation" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_bonus.outputs.has_bonus }}" == "false" ]; then
+            echo "⚪ **Status: NOT ATTEMPTED**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "_No scheduler-impl.c found. This is optional bonus._" >> $GITHUB_STEP_SUMMARY
+          elif [ "${{ steps.q2_bonus_compile.outputs.compile_status }}" == "success" ]; then
+            echo "✅ **Compilation: PASSED**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "_Autograding was executed for Q2 Bonus._" >> $GITHUB_STEP_SUMMARY
+            echo "_Only compilation status is shown; score is not displayed._" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Compilation: FAILED**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "_Please fix compilation errors before final submission._" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # ============================================
+  # Summary Job - Aggregate all scores
+  # ============================================
+  grading-summary:
+    name: Grading Summary
+    runs-on: ubuntu-latest
+    needs: [question1-grading, question2-1-grading, question2-bonus-grading]
+    if: always()
+    
+    steps:
+      - name: Generate Summary Report
+        run: |
+          echo "# 🎓 Assignment 2 Grading Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Question | Score | Max |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|-----|" >> $GITHUB_STEP_SUMMARY
+          
+          Q1_SCORE="${{ needs.question1-grading.outputs.score }}"
+          Q2_1_SCORE="${{ needs.question2-1-grading.outputs.score }}"
+          Q2_BONUS="${{ needs.question2-bonus-grading.outputs.compile_status }}"
+          
+          # Default to 0 if empty
+          Q1_SCORE=${Q1_SCORE:-0}
+          Q2_1_SCORE=${Q2_1_SCORE:-0}
+          
+          echo "| Q1: Read-Write Lock | $Q1_SCORE | 60 |" >> $GITHUB_STEP_SUMMARY
+          echo "| Q2-1: MLFQ Table | $Q2_1_SCORE | 40 |" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$Q2_BONUS" == "success" ]; then
+            echo "| Q2 Bonus: MLFQ Impl | ✅ Compiles | 10 |" >> $GITHUB_STEP_SUMMARY
+          elif [ "$Q2_BONUS" == "not_attempted" ]; then
+            echo "| Q2 Bonus: MLFQ Impl | ⚪ Not attempted | 10 |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| Q2 Bonus: MLFQ Impl | ❌ Compile error | 10 |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          TOTAL=$((Q1_SCORE + Q2_1_SCORE))
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total Score (excluding bonus): $TOTAL/100**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "_Q2 Bonus is autograded; only compilation status is shown._" >> $GITHUB_STEP_SUMMARY

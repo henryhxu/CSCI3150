@@ -37,8 +37,6 @@ Before submission, please ensure you have completed (1) the declaration of origi
 
 ## 4. Other Notes
 
-- We will compile, run and grade your program with Ubuntu latest, which is the same as the autograding environment. Please make sure your program sources are compatible with the corresponding version of Ubuntu. Otherwise, 0 marks will be given.
-
 - Note that we can only grade what you submit in the github repo. You will lose write access to the github repo after deadline. Please find related policies on the [course website](https://github.com/henryhxu/CSCI3150). To use grace token, we provide a separate assignment in github classroom named "assignment_2_grace_token" for your submission. The entrance to this assignment will be released immediately after the normal deadline. DO NOT accept grace token assignment unless you do want to use grace token.
 
 
@@ -66,4 +64,7 @@ Before submission, please ensure you have completed (1) the declaration of origi
 
 7. Does the sorting repeat every time period `S`?
     - Yes.
+
+8. Is the MLFQ scheduler preemptive within a time slice?
+    - No. For simplicity in this assignment, a running process will NOT be preempted by a newly arrived higher-priority process until it finishes its current time slice or allotment. Note that in standard OS implementations, MLFQ is typically preemptive.
 

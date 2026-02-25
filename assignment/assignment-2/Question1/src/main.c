@@ -88,45 +88,14 @@ int main() {
 
     fflush(stdout);
     freopen("/dev/tty", "a", stdout); // Redirect stdout back to terminal
-    printf("Case 1 done. Log is saved in logs/reader_preference.log.\n");
+    printf("Test Case 1 done. Log is saved in logs/reader_preference.log.\n");
 
-    counter = 0;
-
-    // Testcase 2
-    freopen("logs/writer_preference.log", "w", stdout);
-    printf("=== Test Case 2: Writers High Priority, Readers Low Priority ===\n");
-
-    for (int i = 0; i < NUM_READERS; i++) {
-        reader_args[i].id = i + 1;
-        strcpy(reader_args[i].priority, "low priority");
-        if (pthread_create(&readers[i], NULL, reader, &reader_args[i]) != 0) {
-            perror("Failed to create reader thread");
-            exit(1);
-        }
-    }
-
-    for (int i = 0; i < NUM_WRITERS; i++) {
-        writer_args[i].id = i + 1;
-        strcpy(writer_args[i].priority, "high priority");
-        if (pthread_create(&writers[i], NULL, writer, &writer_args[i]) != 0) {
-            perror("Failed to create writer thread");
-            exit(1);
-        }
-    }
-
-    for (int i = 0; i < NUM_READERS; i++) {
-        pthread_join(readers[i], NULL);
-    }
-
-    for (int i = 0; i < NUM_WRITERS; i++) {
-        pthread_join(writers[i], NULL);
-    }
-
-    fflush(stdout);
-    freopen("/dev/tty", "a", stdout); // Redirect stdout back to terminal
-    printf("Case 2 done. Log is saved in logs/writer_preference.log.\n");
-
-    // You may add your own cases here and generate related logs. But the test program only tests the log of case1 and case2.
+    // You may add your own test cases here to test different priority combinations.
+    // Examples to consider:
+    // - Writers with high priority, Readers with low priority
+    // - Both with high priority
+    // - Both with low priority
+    // - Mixed priorities
     
     printf("Done. Go to logs/ for human checking. Or run make test to see if you can pass.\n");
 
