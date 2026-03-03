@@ -61,6 +61,7 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 5 | [Sync 3: Semaphore](lectures/lec7_sema.pptx), [Deadlock](lectures/lec8_deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> | [Scheduling](lectures/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> | [Deadlock](lectures/lec8_deadlock.pdf),<br />[Scheduling](lectures/lec9_sched.pdf) 
 | 6 | [Scheduling](lectures/lec9_sched.pptx) | [Mem. Manag. 1](lectures/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> | [Scheduling](lectures/lec9_sched.pdf) | [Borrowed virtual time](https://dl.acm.org/doi/10.1145/319151.319169)
 | 7 | [Mem. Manag. 1](lectures/lec10_mem.pptx),<br />[Mem.: Paging](lectures/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> | Midterm | [MEM](lectures/lec10_mem.pdf), [Paging](lectures/lec11_paging.pdf)
+| 8 | Reading week | Reading week
 
 The following material provides a nice overview of microkernels and kernel architecture, an intriguing topic I wish I had time to teach.
 - [Section 1: Kernel architecture, CS161, Harvard](https://read.seas.harvard.edu/cs161/2024/sections/section1/)
