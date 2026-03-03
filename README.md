@@ -77,7 +77,7 @@ The following material provides a nice overview of microkernels and kernel archi
 | 6 | Feb 12 | [Semaphores in C](tutorial/T06/tut06.pptx) |  Yicheng |  |  |
 |  | Feb 19 | Holiday |  |  |  |
 | 7 | Feb 26 | [Multilevel Feedback Queue](tutorial/T07/tut07.pptx) |  Yicheng |  |  |
-|  | Mar 5 | Reading Week |  | [Assignment 3]() | TBA |
+|  | Mar 5 | Reading Week |  | [Assignment 3](assignment/assignment-3) | 23:59:59 p.m., Mar 29 |
 | 8 | Mar 12 | [Midterm Solution](tutorial/T08/tut08.pptx) |  Yangtao |  |  |
 | 9 | Mar 19 | [Swapping Algorithms](tutorial/T09/tut09.pptx) | Yangtao |  |  |
 | 10 | Mar 26 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) | Yangtao | [Assignment 4]() | TBA |
@@ -93,8 +93,8 @@ The following material provides a nice overview of microkernels and kernel archi
 | [Assignment 1(Grace Token)](https://classroom.github.com/a/TsU9gaaF) | 23:59:59 p.m., Jan. 27 | Shaofeng |
 | [Assignment 2]() | 23:59:59 p.m., Mar. 1st | Yicheng |
 | [Assignment 2 Grace Token]() | 23:59:59 p.m., Mar. 2nd | Yicheng |
-| [Assignment 3]() | TBA | Yangtao |
-| [Assignment 3 Grace Token]() | TBA | Yangtao |
+| [Assignment 3](https://classroom.github.com/a/KDaG24GT) | 23:59:59 p.m., Mar 29 | Yangtao |
+| [Assignment 3 Grace Token]() | 23:59:59 p.m., Mar 30 | Yangtao |
 | [Assignment 4]() | TBA | Chaobo |
 | [Assignment 4 Grace Token]() | TBA | Chaobo |
 

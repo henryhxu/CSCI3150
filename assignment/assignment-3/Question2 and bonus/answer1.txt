@@ -1,0 +1,38 @@
+Using LRU replacement strategy：
+LRU: Cache miss, replaced line 0
+LRU: Cache miss, replaced line 1
+LRU: Cache hit at line 0
+LRU: Cache miss, replaced line 2
+LRU: Cache miss, replaced line 3
+LRU: Cache miss, replaced line 4
+LRU: Cache miss, replaced line 1
+LRU: Cache hit at line 3
+LRU: Cache miss, replaced line 0
+LRU: Cache miss, replaced line 2
+LRU: Cache miss, replaced line 4
+
+Use LFU replacement strategy:
+LFU: Cache miss, replaced line 0
+LFU: Cache miss, replaced line 1
+LFU: Cache hit at line 0
+LFU: Cache miss, replaced line 2
+LFU: Cache miss, replaced line 3
+LFU: Cache miss, replaced line 4
+LFU: Cache miss, replaced line 1
+LFU: Cache hit at line 3
+LFU: Cache miss, replaced line 1
+LFU: Cache hit at line 0
+LFU: Cache miss, replaced line 1
+
+Use Clock replacement strategy:
+Clock: Cache miss, replaced line 0
+Clock: Cache miss, replaced line 1
+Clock: Cache hit at line 0
+Clock: Cache miss, replaced line 2
+Clock: Cache miss, replaced line 3
+Clock: Cache miss, replaced line 4
+Clock: Cache miss, replaced line 0
+Clock: Cache hit at line 3
+Clock: Cache miss, replaced line 1
+Clock: Cache miss, replaced line 2
+Clock: Cache miss, replaced line 4
