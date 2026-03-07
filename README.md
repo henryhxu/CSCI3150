@@ -61,7 +61,13 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 5 | [Sync 3: Semaphore](lectures/lec7_sema.pptx), [Deadlock](lectures/lec8_deadlock.pptx)<sup>[32](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/Book/threads-bugs.pdf)</sup> | [Scheduling](lectures/lec9_sched.pptx)<sup>[7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf), [9](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf)</sup> | [Deadlock](lectures/lec8_deadlock.pdf),<br />[Scheduling](lectures/lec9_sched.pdf) 
 | 6 | [Scheduling](lectures/lec9_sched.pptx) | [Mem. Manag. 1](lectures/lec10_mem.pptx)<sup>[13](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)-[16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)</sup> | [Scheduling](lectures/lec9_sched.pdf) | [Borrowed virtual time](https://dl.acm.org/doi/10.1145/319151.319169)
 | 7 | [Mem. Manag. 1](lectures/lec10_mem.pptx),<br />[Mem.: Paging](lectures/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> | Midterm | [MEM](lectures/lec10_mem.pdf), [Paging](lectures/lec11_paging.pdf)
-| 8 | Reading week | Reading week
+|  | Reading week | Reading week
+| 8 | [Mem.: Paging](lectures/lec11_paging.pptx),<br />[Mem.: Swapping](lectures/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> | [Mem.: Swapping](lectures/lec12_swapping.pptx)
+| 9 | [I/O Devices](lectures/lec13_io.pdf),<br />[A Simple FS](lectures/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup> | [A Simple FS](lectures/lec14_fsapi.pptx)
+| 10 | [LFS](lectures/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup>, [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup> | [Virtualization](lectures/lec16_virtualization.pptx)
+| 11 | TBD (AI Systems)
+| 12 | Cancelled | Cancelled
+| 13 | [Networking](lectures/lec17_net.pptx) | [Final Review](lectures/lec18_final.pptx)
 
 The following material provides a nice overview of microkernels and kernel architecture, an intriguing topic I wish I had time to teach.
 - [Section 1: Kernel architecture, CS161, Harvard](https://read.seas.harvard.edu/cs161/2024/sections/section1/)
