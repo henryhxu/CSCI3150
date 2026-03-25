@@ -63,9 +63,9 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 7 | [Mem. Manag. 1](lectures/lec10_mem.pptx),<br />[Mem.: Paging](lectures/lec11_paging.pptx)<sup>[18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf), [19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)</sup> | Midterm | [MEM](lectures/lec10_mem.pdf), [Paging](lectures/lec11_paging.pdf)
 |  | Reading week | Reading week
 | 8 | [Mem.: Paging](lectures/lec11_paging.pptx),<br />[Mem.: Swapping](lectures/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> | [Mem.: Swapping](lectures/lec12_swapping.pptx) | [Paging](lectures/lec11_paging.pdf), [Swapping](lectures/lec12_swapping.pdf) | [SIEVE is simpler than LRU](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo)
-| 9 | [I/O Devices](lectures/lec13_io.pptx),<br />[A Simple FS](lectures/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup> | [A Simple FS](lectures/lec14_fsapi.pptx)
-| 10 | [LFS](lectures/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup>, [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup> | [Virtualization](lectures/lec16_virtualization.pptx)
-| 11 | TBD (AI Systems)
+| 9 | [I/O Devices](lectures/lec13_io.pptx) | [A Simple FS](lectures/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup>
+| 10 | [A Simple FS](lectures/lec14_fsapi.pptx)| [LFS](lectures/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup> |
+| 11 | [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup>| TBD (AI Systems)
 | 12 | Cancelled | Cancelled
 | 13 | [Networking](lectures/lec17_net.pptx) | [Final Review](lectures/lec18_final.pptx)
 
