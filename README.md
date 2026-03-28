@@ -65,7 +65,7 @@ Click on the topic to access the slides, and on the superscript to access the co
 | 8 | [Mem.: Paging](lectures/lec11_paging.pptx),<br />[Mem.: Swapping](lectures/lec12_swapping.pptx)<sup>[21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)</sup> | [Mem.: Swapping](lectures/lec12_swapping.pptx) | [Paging](lectures/lec11_paging.pdf), [Swapping](lectures/lec12_swapping.pdf) | [SIEVE is simpler than LRU](https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo)
 | 9 | [I/O Devices](lectures/lec13_io.pptx) | [A Simple FS](lectures/lec14_fsapi.pptx)<sup>[39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [40](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [41](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)</sup>
 | 10 | [A Simple FS](lectures/lec14_fsapi.pptx)| [LFS](lectures/lec15_lfs.pptx)<sup>[43](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)</sup> |
-| 11 | [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup>| TBD (AI Systems)
+| 11 | [LFS](lectures/lec15_lfs.pptx), [Virtualization](lectures/lec16_virtualization.pptx)<sup>[vmm](https://pages.cs.wisc.edu/~remzi/OSTEP/vmm-intro.pdf)</sup>| [Virtualization](lectures/lec16_virtualization.pptx)
 | 12 | Cancelled | Cancelled
 | 13 | [Networking](lectures/lec17_net.pptx) | [Final Review](lectures/lec18_final.pptx)
 
