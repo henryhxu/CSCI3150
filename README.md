@@ -90,7 +90,7 @@ The following material provides a nice overview of microkernels and kernel archi
 | 10 | Mar 26 | [Paging (Address Translation)](tutorial/T10/tut10.pptx) | Yangtao | [Assignment 4]() | TBA |
 | 11 | Apr 2 | [File System API](tutorial/T11/tut11.pptx) | Chaobo |  |  |
 | 12 | Apr 9 | [FAT File System](tutorial/T12/tut12.pptx) | Chaobo |  |  |
-| 13 | Apr 16 | Q&A (if any) | TA office |  |  |
+| 13 | Apr 16 | Assignment and lecture Q&A | Yicheng |  |  |
 
 ### Assignment Submission(Github Classroom) and Contact
 
